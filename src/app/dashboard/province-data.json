@@ -1,0 +1,2490 @@
+{
+  "provinces": {
+    "2023": {
+      "HàNội": {
+        "displayName": "Hà Nội",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 102095,
+        "averageScores": {
+          "toan": 6.61,
+          "ngu_van": 7.2,
+          "ngoai_ngu": 6.21,
+          "vat_li": 6.81,
+          "hoa_hoc": 6.3,
+          "sinh_hoc": 6.05,
+          "lich_su": 5.88,
+          "dia_li": 6.01,
+          "gdcd": 8.22
+        },
+        "overallAverage": 6.59
+      },
+      "HồChíMinh": {
+        "displayName": "TP. Hồ Chí Minh",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 84851,
+        "averageScores": {
+          "toan": 6.92,
+          "ngu_van": 6.54,
+          "ngoai_ngu": 6.76,
+          "vat_li": 6.34,
+          "hoa_hoc": 6.7,
+          "sinh_hoc": 6.43,
+          "lich_su": 6.19,
+          "dia_li": 6.19,
+          "gdcd": 8.62
+        },
+        "overallAverage": 6.74
+      },
+      "HảiPhòng": {
+        "displayName": "Hải Phòng",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 22723,
+        "averageScores": {
+          "toan": 6.64,
+          "ngu_van": 7.45,
+          "ngoai_ngu": 6.06,
+          "vat_li": 6.86,
+          "hoa_hoc": 6.72,
+          "sinh_hoc": 6.54,
+          "lich_su": 6.3,
+          "dia_li": 6.43,
+          "gdcd": 8.79
+        },
+        "overallAverage": 6.87
+      },
+      "ĐàNẵng": {
+        "displayName": "Đà Nẵng",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 13133,
+        "averageScores": {
+          "toan": 6.53,
+          "ngu_van": 6.02,
+          "ngoai_ngu": 6.11,
+          "vat_li": 6.51,
+          "hoa_hoc": 6.47,
+          "sinh_hoc": 6,
+          "lich_su": 5.56,
+          "dia_li": 5.77,
+          "gdcd": 8.07
+        },
+        "overallAverage": 6.34
+      },
+      "HàGiang": {
+        "displayName": "Hà Giang",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 6286,
+        "averageScores": {
+          "toan": 4.32,
+          "ngu_van": 5.27,
+          "ngoai_ngu": 3.83,
+          "vat_li": 6.33,
+          "hoa_hoc": 6.56,
+          "sinh_hoc": 6.1,
+          "lich_su": 5.2,
+          "dia_li": 5.54,
+          "gdcd": 7.24
+        },
+        "overallAverage": 5.6
+      },
+      "CaoBằng": {
+        "displayName": "Cao Bằng",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 5046,
+        "averageScores": {
+          "toan": 4.89,
+          "ngu_van": 5.79,
+          "ngoai_ngu": 4.28,
+          "vat_li": 6.51,
+          "hoa_hoc": 6.82,
+          "sinh_hoc": 6.42,
+          "lich_su": 5.92,
+          "dia_li": 5.91,
+          "gdcd": 7.76
+        },
+        "overallAverage": 6.03
+      },
+      "LaiChâu": {
+        "displayName": "Lai Châu",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 3838,
+        "averageScores": {
+          "toan": 5.58,
+          "ngu_van": 6.51,
+          "ngoai_ngu": 4.36,
+          "vat_li": 6.13,
+          "hoa_hoc": 6.31,
+          "sinh_hoc": 6.3,
+          "lich_su": 6.02,
+          "dia_li": 6.23,
+          "gdcd": 7.82
+        },
+        "overallAverage": 6.14
+      },
+      "LàoCai": {
+        "displayName": "Lào Cai",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 7866,
+        "averageScores": {
+          "toan": 5.81,
+          "ngu_van": 6.97,
+          "ngoai_ngu": 4.85,
+          "vat_li": 6.61,
+          "hoa_hoc": 6.64,
+          "sinh_hoc": 6.69,
+          "lich_su": 6.14,
+          "dia_li": 6.43,
+          "gdcd": 8.36
+        },
+        "overallAverage": 6.5
+      },
+      "TuyênQuang": {
+        "displayName": "Tuyên Quang",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 8392,
+        "averageScores": {
+          "toan": 5.6,
+          "ngu_van": 6.58,
+          "ngoai_ngu": 5.04,
+          "vat_li": 6.62,
+          "hoa_hoc": 7.23,
+          "sinh_hoc": 6.95,
+          "lich_su": 6.39,
+          "dia_li": 6.26,
+          "gdcd": 8.33
+        },
+        "overallAverage": 6.56
+      },
+      "LạngSơn": {
+        "displayName": "Lạng Sơn",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 9353,
+        "averageScores": {
+          "toan": 5.21,
+          "ngu_van": 6.1,
+          "ngoai_ngu": 4.49,
+          "vat_li": 6.45,
+          "hoa_hoc": 6.58,
+          "sinh_hoc": 6.51,
+          "lich_su": 5.77,
+          "dia_li": 6.16,
+          "gdcd": 8.28
+        },
+        "overallAverage": 6.17
+      },
+      "BắcKạn": {
+        "displayName": "Bắc Kạn",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 2917,
+        "averageScores": {
+          "toan": 5.24,
+          "ngu_van": 6.25,
+          "ngoai_ngu": 4.36,
+          "vat_li": 6.51,
+          "hoa_hoc": 6.9,
+          "sinh_hoc": 6.6,
+          "lich_su": 6.24,
+          "dia_li": 6.37,
+          "gdcd": 8.26
+        },
+        "overallAverage": 6.3
+      },
+      "TháiNguyên": {
+        "displayName": "Thái Nguyên",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 16153,
+        "averageScores": {
+          "toan": 5.69,
+          "ngu_van": 6.47,
+          "ngoai_ngu": 4.96,
+          "vat_li": 6.53,
+          "hoa_hoc": 6.94,
+          "sinh_hoc": 6.29,
+          "lich_su": 5.81,
+          "dia_li": 5.95,
+          "gdcd": 8.04
+        },
+        "overallAverage": 6.3
+      },
+      "YênBái": {
+        "displayName": "Yên Bái",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 8235,
+        "averageScores": {
+          "toan": 5.3,
+          "ngu_van": 6.28,
+          "ngoai_ngu": 4.88,
+          "vat_li": 6.66,
+          "hoa_hoc": 6.99,
+          "sinh_hoc": 6.32,
+          "lich_su": 5.83,
+          "dia_li": 6.03,
+          "gdcd": 7.94
+        },
+        "overallAverage": 6.25
+      },
+      "SơnLa": {
+        "displayName": "Sơn La",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 11773,
+        "averageScores": {
+          "toan": 4.94,
+          "ngu_van": 6.07,
+          "ngoai_ngu": 4.14,
+          "vat_li": 6.46,
+          "hoa_hoc": 6.75,
+          "sinh_hoc": 6.53,
+          "lich_su": 5.95,
+          "dia_li": 6.16,
+          "gdcd": 7.96
+        },
+        "overallAverage": 6.11
+      },
+      "PhúThọ": {
+        "displayName": "Phú Thọ",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 15874,
+        "averageScores": {
+          "toan": 6.19,
+          "ngu_van": 7.3,
+          "ngoai_ngu": 5.38,
+          "vat_li": 6.91,
+          "hoa_hoc": 7,
+          "sinh_hoc": 6.61,
+          "lich_su": 6.57,
+          "dia_li": 6.59,
+          "gdcd": 8.77
+        },
+        "overallAverage": 6.81
+      },
+      "VĩnhPhúc": {
+        "displayName": "Vĩnh Phúc",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 14042,
+        "averageScores": {
+          "toan": 6.86,
+          "ngu_van": 7.77,
+          "ngoai_ngu": 6,
+          "vat_li": 7.35,
+          "hoa_hoc": 7.18,
+          "sinh_hoc": 6.83,
+          "lich_su": 6.97,
+          "dia_li": 6.9,
+          "gdcd": 9.11
+        },
+        "overallAverage": 7.22
+      },
+      "QuảngNinh": {
+        "displayName": "Quảng Ninh",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 16025,
+        "averageScores": {
+          "toan": 5.73,
+          "ngu_van": 6.48,
+          "ngoai_ngu": 5.5,
+          "vat_li": 6.8,
+          "hoa_hoc": 6.48,
+          "sinh_hoc": 6.23,
+          "lich_su": 5.8,
+          "dia_li": 5.97,
+          "gdcd": 8.21
+        },
+        "overallAverage": 6.36
+      },
+      "BắcGiang": {
+        "displayName": "Bắc Giang",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 21080,
+        "averageScores": {
+          "toan": 6.18,
+          "ngu_van": 7.26,
+          "ngoai_ngu": 5.45,
+          "vat_li": 6.88,
+          "hoa_hoc": 6.83,
+          "sinh_hoc": 6.4,
+          "lich_su": 6.14,
+          "dia_li": 6.34,
+          "gdcd": 8.49
+        },
+        "overallAverage": 6.66
+      },
+      "BắcNinh": {
+        "displayName": "Bắc Ninh",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 16724,
+        "averageScores": {
+          "toan": 6.7,
+          "ngu_van": 7.55,
+          "ngoai_ngu": 5.88,
+          "vat_li": 7.3,
+          "hoa_hoc": 7.04,
+          "sinh_hoc": 6.25,
+          "lich_su": 6.58,
+          "dia_li": 6.41,
+          "gdcd": 8.59
+        },
+        "overallAverage": 6.92
+      },
+      "HảiDương": {
+        "displayName": "Hải Dương",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 21934,
+        "averageScores": {
+          "toan": 6.5,
+          "ngu_van": 7.47,
+          "ngoai_ngu": 5.23,
+          "vat_li": 6.81,
+          "hoa_hoc": 7.2,
+          "sinh_hoc": 6.32,
+          "lich_su": 6.08,
+          "dia_li": 6.29,
+          "gdcd": 8.65
+        },
+        "overallAverage": 6.73
+      },
+      "HưngYên": {
+        "displayName": "Hưng Yên",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 15386,
+        "averageScores": {
+          "toan": 6.38,
+          "ngu_van": 6.51,
+          "ngoai_ngu": 5.32,
+          "vat_li": 6.77,
+          "hoa_hoc": 6.84,
+          "sinh_hoc": 5.96,
+          "lich_su": 5.8,
+          "dia_li": 5.89,
+          "gdcd": 8.07
+        },
+        "overallAverage": 6.39
+      },
+      "HàNam": {
+        "displayName": "Hà Nam",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 9690,
+        "averageScores": {
+          "toan": 5.14,
+          "ngu_van": 6.74,
+          "ngoai_ngu": 4.42,
+          "vat_li": 6.8,
+          "hoa_hoc": 6.92,
+          "sinh_hoc": 6.46,
+          "lich_su": 6.01,
+          "dia_li": 6.22,
+          "gdcd": 8.26
+        },
+        "overallAverage": 6.33
+      },
+      "NamĐịnh": {
+        "displayName": "Nam Định",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 9635,
+        "averageScores": {
+          "toan": 6.77,
+          "ngu_van": 7.83,
+          "ngoai_ngu": 5.37,
+          "vat_li": 6.94,
+          "hoa_hoc": 6.96,
+          "sinh_hoc": 6.4,
+          "lich_su": 6.4,
+          "dia_li": 6.43,
+          "gdcd": 8.7
+        },
+        "overallAverage": 6.87
+      },
+      "TháiBình": {
+        "displayName": "Thái Bình",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 20405,
+        "averageScores": {
+          "toan": 7.13,
+          "ngu_van": 7.37,
+          "ngoai_ngu": 5.86,
+          "vat_li": 7.12,
+          "hoa_hoc": 7.25,
+          "sinh_hoc": 6.75,
+          "lich_su": 6.73,
+          "dia_li": 6.79,
+          "gdcd": 8.98
+        },
+        "overallAverage": 7.11
+      },
+      "NinhBình": {
+        "displayName": "Ninh Bình",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 20845,
+        "averageScores": {
+          "toan": 6.72,
+          "ngu_van": 6.86,
+          "ngoai_ngu": 5.39,
+          "vat_li": 6.67,
+          "hoa_hoc": 6.97,
+          "sinh_hoc": 6.35,
+          "lich_su": 6.4,
+          "dia_li": 6.36,
+          "gdcd": 8.68
+        },
+        "overallAverage": 6.71
+      },
+      "ThanhHóa": {
+        "displayName": "Thanh Hóa",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 11149,
+        "averageScores": {
+          "toan": 6.67,
+          "ngu_van": 7.67,
+          "ngoai_ngu": 5.78,
+          "vat_li": 7.1,
+          "hoa_hoc": 7.08,
+          "sinh_hoc": 6.66,
+          "lich_su": 6.77,
+          "dia_li": 6.7,
+          "gdcd": 8.87
+        },
+        "overallAverage": 7.03
+      },
+      "NghệAn": {
+        "displayName": "Nghệ An",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 36480,
+        "averageScores": {
+          "toan": 5.88,
+          "ngu_van": 7.68,
+          "ngoai_ngu": 4.88,
+          "vat_li": 6.78,
+          "hoa_hoc": 6.76,
+          "sinh_hoc": 6.25,
+          "lich_su": 6.01,
+          "dia_li": 6.22,
+          "gdcd": 8.36
+        },
+        "overallAverage": 6.54
+      },
+      "HàTĩnh": {
+        "displayName": "Hà Tĩnh",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 36886,
+        "averageScores": {
+          "toan": 6.07,
+          "ngu_van": 7.29,
+          "ngoai_ngu": 5.01,
+          "vat_li": 6.76,
+          "hoa_hoc": 6.9,
+          "sinh_hoc": 6.31,
+          "lich_su": 6.15,
+          "dia_li": 6.22,
+          "gdcd": 8.22
+        },
+        "overallAverage": 6.55
+      },
+      "QuảngBình": {
+        "displayName": "Quảng Bình",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 17249,
+        "averageScores": {
+          "toan": 6.19,
+          "ngu_van": 7.75,
+          "ngoai_ngu": 5.39,
+          "vat_li": 7.16,
+          "hoa_hoc": 7.14,
+          "sinh_hoc": 6.19,
+          "lich_su": 6.35,
+          "dia_li": 6.4,
+          "gdcd": 8.62
+        },
+        "overallAverage": 6.8
+      },
+      "QuảngTrị": {
+        "displayName": "Quảng Trị",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 11168,
+        "averageScores": {
+          "toan": 5.72,
+          "ngu_van": 6.52,
+          "ngoai_ngu": 4.99,
+          "vat_li": 6.64,
+          "hoa_hoc": 6.94,
+          "sinh_hoc": 6.33,
+          "lich_su": 6.05,
+          "dia_li": 6.04,
+          "gdcd": 8.06
+        },
+        "overallAverage": 6.37
+      },
+      "ThừaThiênHuế": {
+        "displayName": "Thừa Thiên Huế",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 8413,
+        "averageScores": {
+          "toan": 5.88,
+          "ngu_van": 6.45,
+          "ngoai_ngu": 4.78,
+          "vat_li": 6.59,
+          "hoa_hoc": 6.73,
+          "sinh_hoc": 6.14,
+          "lich_su": 5.73,
+          "dia_li": 5.95,
+          "gdcd": 7.84
+        },
+        "overallAverage": 6.23
+      },
+      "QuảngNam": {
+        "displayName": "Quảng Nam",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 13029,
+        "averageScores": {
+          "toan": 6.21,
+          "ngu_van": 6.92,
+          "ngoai_ngu": 5.26,
+          "vat_li": 6.86,
+          "hoa_hoc": 7.02,
+          "sinh_hoc": 6.28,
+          "lich_su": 5.89,
+          "dia_li": 6,
+          "gdcd": 8.08
+        },
+        "overallAverage": 6.5
+      },
+      "QuảngNgãi": {
+        "displayName": "Quảng Ngãi",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 17197,
+        "averageScores": {
+          "toan": 6.1,
+          "ngu_van": 6.27,
+          "ngoai_ngu": 5.05,
+          "vat_li": 6.72,
+          "hoa_hoc": 6.78,
+          "sinh_hoc": 6.24,
+          "lich_su": 5.71,
+          "dia_li": 5.81,
+          "gdcd": 7.77
+        },
+        "overallAverage": 6.27
+      },
+      "KonTum": {
+        "displayName": "Kon Tum",
+        "region": "Tây Nguyên",
+        "totalStudents": 13870,
+        "averageScores": {
+          "toan": 6.14,
+          "ngu_van": 6.94,
+          "ngoai_ngu": 5.37,
+          "vat_li": 6.67,
+          "hoa_hoc": 6.87,
+          "sinh_hoc": 5.96,
+          "lich_su": 5.61,
+          "dia_li": 5.62,
+          "gdcd": 7.44
+        },
+        "overallAverage": 6.29
+      },
+      "GiaLai": {
+        "displayName": "Gia Lai",
+        "region": "Tây Nguyên",
+        "totalStudents": 5028,
+        "averageScores": {
+          "toan": 6,
+          "ngu_van": 6.4,
+          "ngoai_ngu": 4.75,
+          "vat_li": 6.66,
+          "hoa_hoc": 6.87,
+          "sinh_hoc": 6.45,
+          "lich_su": 5.96,
+          "dia_li": 6.06,
+          "gdcd": 7.96
+        },
+        "overallAverage": 6.35
+      },
+      "BìnhĐịnh": {
+        "displayName": "Bình Định",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 18897,
+        "averageScores": {
+          "toan": 6.36,
+          "ngu_van": 6.33,
+          "ngoai_ngu": 5.66,
+          "vat_li": 6.81,
+          "hoa_hoc": 6.88,
+          "sinh_hoc": 6.43,
+          "lich_su": 5.95,
+          "dia_li": 6.02,
+          "gdcd": 8.17
+        },
+        "overallAverage": 6.51
+      },
+      "PhúYên": {
+        "displayName": "Phú Yên",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 14861,
+        "averageScores": {
+          "toan": 5.69,
+          "ngu_van": 6.46,
+          "ngoai_ngu": 4.77,
+          "vat_li": 6.45,
+          "hoa_hoc": 6.71,
+          "sinh_hoc": 6.31,
+          "lich_su": 5.68,
+          "dia_li": 5.87,
+          "gdcd": 7.82
+        },
+        "overallAverage": 6.2
+      },
+      "ĐắkLắk": {
+        "displayName": "Đắk Lắk",
+        "region": "Tây Nguyên",
+        "totalStudents": 10666,
+        "averageScores": {
+          "toan": 6.1,
+          "ngu_van": 6,
+          "ngoai_ngu": 4.96,
+          "vat_li": 6.41,
+          "hoa_hoc": 6.76,
+          "sinh_hoc": 6.24,
+          "lich_su": 5.68,
+          "dia_li": 5.92,
+          "gdcd": 7.8
+        },
+        "overallAverage": 6.21
+      },
+      "KhánhHòa": {
+        "displayName": "Khánh Hòa",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 21042,
+        "averageScores": {
+          "toan": 5.61,
+          "ngu_van": 6.11,
+          "ngoai_ngu": 4.66,
+          "vat_li": 6.21,
+          "hoa_hoc": 6.42,
+          "sinh_hoc": 6.07,
+          "lich_su": 5.4,
+          "dia_li": 5.73,
+          "gdcd": 7.65
+        },
+        "overallAverage": 5.98
+      },
+      "LâmĐồng": {
+        "displayName": "Lâm Đồng",
+        "region": "Tây Nguyên",
+        "totalStudents": 14487,
+        "averageScores": {
+          "toan": 6.19,
+          "ngu_van": 6.48,
+          "ngoai_ngu": 5.57,
+          "vat_li": 6.33,
+          "hoa_hoc": 6.47,
+          "sinh_hoc": 6.21,
+          "lich_su": 5.58,
+          "dia_li": 5.89,
+          "gdcd": 8.02
+        },
+        "overallAverage": 6.3
+      },
+      "BìnhPhước": {
+        "displayName": "Bình Phước",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 14687,
+        "averageScores": {
+          "toan": 6.38,
+          "ngu_van": 7.15,
+          "ngoai_ngu": 5.63,
+          "vat_li": 6.54,
+          "hoa_hoc": 6.84,
+          "sinh_hoc": 6.7,
+          "lich_su": 5.98,
+          "dia_li": 6.22,
+          "gdcd": 8.32
+        },
+        "overallAverage": 6.64
+      },
+      "BìnhDương": {
+        "displayName": "Bình Dương",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 10930,
+        "averageScores": {
+          "toan": 6.28,
+          "ngu_van": 6.58,
+          "ngoai_ngu": 5.17,
+          "vat_li": 6.42,
+          "hoa_hoc": 6.5,
+          "sinh_hoc": 6.29,
+          "lich_su": 5.97,
+          "dia_li": 6.23,
+          "gdcd": 8.31
+        },
+        "overallAverage": 6.42
+      },
+      "NinhThuận": {
+        "displayName": "Ninh Thuận",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 14218,
+        "averageScores": {
+          "toan": 7.02,
+          "ngu_van": 7.23,
+          "ngoai_ngu": 6.72,
+          "vat_li": 6.89,
+          "hoa_hoc": 7.2,
+          "sinh_hoc": 7,
+          "lich_su": 6.69,
+          "dia_li": 6.68,
+          "gdcd": 9.03
+        },
+        "overallAverage": 7.16
+      },
+      "TâyNinh": {
+        "displayName": "Tây Ninh",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 6121,
+        "averageScores": {
+          "toan": 5.85,
+          "ngu_van": 6.35,
+          "ngoai_ngu": 4.93,
+          "vat_li": 6.27,
+          "hoa_hoc": 6.56,
+          "sinh_hoc": 6.29,
+          "lich_su": 5.67,
+          "dia_li": 5.82,
+          "gdcd": 7.88
+        },
+        "overallAverage": 6.18
+      },
+      "BìnhThuận": {
+        "displayName": "Bình Thuận",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 10229,
+        "averageScores": {
+          "toan": 6.14,
+          "ngu_van": 6.59,
+          "ngoai_ngu": 5.14,
+          "vat_li": 6.23,
+          "hoa_hoc": 6.56,
+          "sinh_hoc": 6.44,
+          "lich_su": 5.85,
+          "dia_li": 6.09,
+          "gdcd": 8.3
+        },
+        "overallAverage": 6.37
+      },
+      "ĐồngNai": {
+        "displayName": "Đồng Nai",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 12900,
+        "averageScores": {
+          "toan": 6.2,
+          "ngu_van": 6.67,
+          "ngoai_ngu": 5.24,
+          "vat_li": 6.53,
+          "hoa_hoc": 6.77,
+          "sinh_hoc": 6.5,
+          "lich_su": 5.96,
+          "dia_li": 5.99,
+          "gdcd": 8.23
+        },
+        "overallAverage": 6.45
+      },
+      "BàRịa-VũngTàu": {
+        "displayName": "Bà Rịa-Vũng Tàu",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 33158,
+        "averageScores": {
+          "toan": 6.15,
+          "ngu_van": 6.45,
+          "ngoai_ngu": 5.67,
+          "vat_li": 6.35,
+          "hoa_hoc": 6.57,
+          "sinh_hoc": 6.19,
+          "lich_su": 5.68,
+          "dia_li": 5.89,
+          "gdcd": 8.12
+        },
+        "overallAverage": 6.34
+      },
+      "LongAn": {
+        "displayName": "Long An",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 15653,
+        "averageScores": {
+          "toan": 6.42,
+          "ngu_van": 6.2,
+          "ngoai_ngu": 5.41,
+          "vat_li": 6.25,
+          "hoa_hoc": 6.78,
+          "sinh_hoc": 6.46,
+          "lich_su": 6.06,
+          "dia_li": 6.18,
+          "gdcd": 8.5
+        },
+        "overallAverage": 6.47
+      },
+      "TiềnGiang": {
+        "displayName": "Tiền Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 15678,
+        "averageScores": {
+          "toan": 6.24,
+          "ngu_van": 6.95,
+          "ngoai_ngu": 5.25,
+          "vat_li": 6.15,
+          "hoa_hoc": 6.7,
+          "sinh_hoc": 6.59,
+          "lich_su": 6.03,
+          "dia_li": 6.15,
+          "gdcd": 8.36
+        },
+        "overallAverage": 6.49
+      },
+      "BếnTre": {
+        "displayName": "Bến Tre",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 19942,
+        "averageScores": {
+          "toan": 6.34,
+          "ngu_van": 7.5,
+          "ngoai_ngu": 5.56,
+          "vat_li": 6.49,
+          "hoa_hoc": 6.89,
+          "sinh_hoc": 6.84,
+          "lich_su": 6.45,
+          "dia_li": 6.5,
+          "gdcd": 8.64
+        },
+        "overallAverage": 6.8
+      },
+      "TràVinh": {
+        "displayName": "Trà Vinh",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12925,
+        "averageScores": {
+          "toan": 6.63,
+          "ngu_van": 6.38,
+          "ngoai_ngu": 6.19,
+          "vat_li": 6.27,
+          "hoa_hoc": 6.31,
+          "sinh_hoc": 6.18,
+          "lich_su": 5.91,
+          "dia_li": 6.12,
+          "gdcd": 8.53
+        },
+        "overallAverage": 6.5
+      },
+      "VĩnhLong": {
+        "displayName": "Vĩnh Long",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 15455,
+        "averageScores": {
+          "toan": 6.61,
+          "ngu_van": 7.56,
+          "ngoai_ngu": 5.44,
+          "vat_li": 6.44,
+          "hoa_hoc": 6.87,
+          "sinh_hoc": 6.58,
+          "lich_su": 6.13,
+          "dia_li": 6.33,
+          "gdcd": 8.52
+        },
+        "overallAverage": 6.72
+      },
+      "ĐồngTháp": {
+        "displayName": "Đồng Tháp",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 14423,
+        "averageScores": {
+          "toan": 5.81,
+          "ngu_van": 6.74,
+          "ngoai_ngu": 5.02,
+          "vat_li": 6.1,
+          "hoa_hoc": 6.48,
+          "sinh_hoc": 6.58,
+          "lich_su": 6.08,
+          "dia_li": 6.02,
+          "gdcd": 8.32
+        },
+        "overallAverage": 6.35
+      },
+      "AnGiang": {
+        "displayName": "An Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12061,
+        "averageScores": {
+          "toan": 6.3,
+          "ngu_van": 6.83,
+          "ngoai_ngu": 5.47,
+          "vat_li": 6.43,
+          "hoa_hoc": 6.92,
+          "sinh_hoc": 6.83,
+          "lich_su": 6.06,
+          "dia_li": 6.14,
+          "gdcd": 8.37
+        },
+        "overallAverage": 6.59
+      },
+      "KiênGiang": {
+        "displayName": "Kiên Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12117,
+        "averageScores": {
+          "toan": 6.3,
+          "ngu_van": 6.57,
+          "ngoai_ngu": 5.09,
+          "vat_li": 6.37,
+          "hoa_hoc": 6.95,
+          "sinh_hoc": 6.77,
+          "lich_su": 5.98,
+          "dia_li": 6.15,
+          "gdcd": 8.53
+        },
+        "overallAverage": 6.52
+      },
+      "CầnThơ": {
+        "displayName": "Cần Thơ",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10435,
+        "averageScores": {
+          "toan": 6.37,
+          "ngu_van": 6.48,
+          "ngoai_ngu": 5.48,
+          "vat_li": 6.59,
+          "hoa_hoc": 6.97,
+          "sinh_hoc": 7.06,
+          "lich_su": 6.37,
+          "dia_li": 6.44,
+          "gdcd": 8.68
+        },
+        "overallAverage": 6.72
+      },
+      "HậuGiang": {
+        "displayName": "Hậu Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 9196,
+        "averageScores": {
+          "toan": 5.48,
+          "ngu_van": 6.33,
+          "ngoai_ngu": 4.38,
+          "vat_li": 5.87,
+          "hoa_hoc": 6.54,
+          "sinh_hoc": 6.59,
+          "lich_su": 5.56,
+          "dia_li": 5.82,
+          "gdcd": 8.07
+        },
+        "overallAverage": 6.07
+      },
+      "SócTrăng": {
+        "displayName": "Sóc Trăng",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10045,
+        "averageScores": {
+          "toan": 5.65,
+          "ngu_van": 7.03,
+          "ngoai_ngu": 4.76,
+          "vat_li": 6.14,
+          "hoa_hoc": 6.45,
+          "sinh_hoc": 6.51,
+          "lich_su": 5.73,
+          "dia_li": 5.87,
+          "gdcd": 8.09
+        },
+        "overallAverage": 6.25
+      },
+      "BạcLiêu": {
+        "displayName": "Bạc Liêu",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 6382,
+        "averageScores": {
+          "toan": 6.44,
+          "ngu_van": 7.14,
+          "ngoai_ngu": 5.18,
+          "vat_li": 6.27,
+          "hoa_hoc": 6.74,
+          "sinh_hoc": 6.78,
+          "lich_su": 6.35,
+          "dia_li": 6.37,
+          "gdcd": 8.5
+        },
+        "overallAverage": 6.64
+      },
+      "CàMau": {
+        "displayName": "Cà Mau",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 9776,
+        "averageScores": {
+          "toan": 6.03,
+          "ngu_van": 6.44,
+          "ngoai_ngu": 4.84,
+          "vat_li": 5.92,
+          "hoa_hoc": 6.24,
+          "sinh_hoc": 6.47,
+          "lich_su": 6.09,
+          "dia_li": 6.26,
+          "gdcd": 8.47
+        },
+        "overallAverage": 6.31
+      },
+      "ĐiệnBiên": {
+        "displayName": "Điện Biên",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 6685,
+        "averageScores": {
+          "toan": 5.11,
+          "ngu_van": 6.71,
+          "ngoai_ngu": 4.11,
+          "vat_li": 6.19,
+          "hoa_hoc": 6.69,
+          "sinh_hoc": 6.33,
+          "lich_su": 5.91,
+          "dia_li": 6.15,
+          "gdcd": 7.59
+        },
+        "overallAverage": 6.09
+      },
+      "HoàBình": {
+        "displayName": "Hòa Bình",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 7384,
+        "averageScores": {
+          "toan": 5.67,
+          "ngu_van": 6.22,
+          "ngoai_ngu": 4.36,
+          "vat_li": 6.08,
+          "hoa_hoc": 6.51,
+          "sinh_hoc": 6.15,
+          "lich_su": 5.88,
+          "dia_li": 5.95,
+          "gdcd": 7.89
+        },
+        "overallAverage": 6.08
+      },
+      "ĐắkNông": {
+        "displayName": "Đắk Nông",
+        "region": "Tây Nguyên",
+        "totalStudents": 6937,
+        "averageScores": {
+          "toan": 5.67,
+          "ngu_van": 6.62,
+          "ngoai_ngu": 4.4,
+          "vat_li": 6.07,
+          "hoa_hoc": 6.68,
+          "sinh_hoc": 6.45,
+          "lich_su": 5.86,
+          "dia_li": 6.09,
+          "gdcd": 8.25
+        },
+        "overallAverage": 6.23
+      }
+    },
+    "2024": {
+      "HàNội": {
+        "displayName": "Hà Nội",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 107867,
+        "averageScores": {
+          "toan": 6.75,
+          "ngu_van": 7.76,
+          "ngoai_ngu": 6.2,
+          "vat_li": 6.81,
+          "hoa_hoc": 6.22,
+          "sinh_hoc": 5.91,
+          "lich_su": 6.62,
+          "dia_li": 7.06,
+          "gdcd": 8.12
+        },
+        "overallAverage": 6.83
+      },
+      "HồChíMinh": {
+        "displayName": "TP. Hồ Chí Minh",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 87322,
+        "averageScores": {
+          "toan": 6.98,
+          "ngu_van": 6.65,
+          "ngoai_ngu": 6.73,
+          "vat_li": 6.34,
+          "hoa_hoc": 6.49,
+          "sinh_hoc": 6.22,
+          "lich_su": 6.62,
+          "dia_li": 7.2,
+          "gdcd": 8.31
+        },
+        "overallAverage": 6.84
+      },
+      "HảiPhòng": {
+        "displayName": "Hải Phòng",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 25530,
+        "averageScores": {
+          "toan": 6.79,
+          "ngu_van": 8,
+          "ngoai_ngu": 6,
+          "vat_li": 7.02,
+          "hoa_hoc": 6.67,
+          "sinh_hoc": 6.42,
+          "lich_su": 6.85,
+          "dia_li": 7.58,
+          "gdcd": 8.61
+        },
+        "overallAverage": 7.1
+      },
+      "ĐàNẵng": {
+        "displayName": "Đà Nẵng",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 13414,
+        "averageScores": {
+          "toan": 6.62,
+          "ngu_van": 6.57,
+          "ngoai_ngu": 6.11,
+          "vat_li": 6.63,
+          "hoa_hoc": 6.38,
+          "sinh_hoc": 5.66,
+          "lich_su": 6.04,
+          "dia_li": 6.71,
+          "gdcd": 7.83
+        },
+        "overallAverage": 6.51
+      },
+      "HàGiang": {
+        "displayName": "Hà Giang",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 6920,
+        "averageScores": {
+          "toan": 4.58,
+          "ngu_van": 6.05,
+          "ngoai_ngu": 3.92,
+          "vat_li": 6.01,
+          "hoa_hoc": 6.31,
+          "sinh_hoc": 6.07,
+          "lich_su": 5.8,
+          "dia_li": 6.44,
+          "gdcd": 7.29
+        },
+        "overallAverage": 5.83
+      },
+      "CaoBằng": {
+        "displayName": "Cao Bằng",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 5506,
+        "averageScores": {
+          "toan": 5.1,
+          "ngu_van": 5.9,
+          "ngoai_ngu": 4.38,
+          "vat_li": 6.47,
+          "hoa_hoc": 6.4,
+          "sinh_hoc": 6.12,
+          "lich_su": 6.47,
+          "dia_li": 6.8,
+          "gdcd": 7.7
+        },
+        "overallAverage": 6.15
+      },
+      "LaiChâu": {
+        "displayName": "Lai Châu",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 4188,
+        "averageScores": {
+          "toan": 5.6,
+          "ngu_van": 6.47,
+          "ngoai_ngu": 4.25,
+          "vat_li": 6.22,
+          "hoa_hoc": 6.25,
+          "sinh_hoc": 6.31,
+          "lich_su": 6.39,
+          "dia_li": 7.05,
+          "gdcd": 7.65
+        },
+        "overallAverage": 6.24
+      },
+      "LàoCai": {
+        "displayName": "Lào Cai",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 8356,
+        "averageScores": {
+          "toan": 5.98,
+          "ngu_van": 7.18,
+          "ngoai_ngu": 4.78,
+          "vat_li": 6.7,
+          "hoa_hoc": 6.31,
+          "sinh_hoc": 6.5,
+          "lich_su": 6.57,
+          "dia_li": 7.37,
+          "gdcd": 8.22
+        },
+        "overallAverage": 6.62
+      },
+      "TuyênQuang": {
+        "displayName": "Tuyên Quang",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 8984,
+        "averageScores": {
+          "toan": 6.09,
+          "ngu_van": 6.59,
+          "ngoai_ngu": 5.35,
+          "vat_li": 6.99,
+          "hoa_hoc": 7.52,
+          "sinh_hoc": 7.32,
+          "lich_su": 7.02,
+          "dia_li": 7.29,
+          "gdcd": 8.24
+        },
+        "overallAverage": 6.93
+      },
+      "LạngSơn": {
+        "displayName": "Lạng Sơn",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 9469,
+        "averageScores": {
+          "toan": 5.52,
+          "ngu_van": 6.78,
+          "ngoai_ngu": 4.63,
+          "vat_li": 6.52,
+          "hoa_hoc": 6.45,
+          "sinh_hoc": 6.33,
+          "lich_su": 6.35,
+          "dia_li": 7.14,
+          "gdcd": 8.1
+        },
+        "overallAverage": 6.42
+      },
+      "BắcKạn": {
+        "displayName": "Bắc Kạn",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 3174,
+        "averageScores": {
+          "toan": 5.33,
+          "ngu_van": 6.55,
+          "ngoai_ngu": 4.26,
+          "vat_li": 6.6,
+          "hoa_hoc": 6.74,
+          "sinh_hoc": 6.58,
+          "lich_su": 6.66,
+          "dia_li": 7.19,
+          "gdcd": 8.17
+        },
+        "overallAverage": 6.45
+      },
+      "TháiNguyên": {
+        "displayName": "Thái Nguyên",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 16713,
+        "averageScores": {
+          "toan": 5.95,
+          "ngu_van": 7.19,
+          "ngoai_ngu": 4.98,
+          "vat_li": 6.51,
+          "hoa_hoc": 6.81,
+          "sinh_hoc": 6.17,
+          "lich_su": 6.33,
+          "dia_li": 6.95,
+          "gdcd": 7.99
+        },
+        "overallAverage": 6.54
+      },
+      "YênBái": {
+        "displayName": "Yên Bái",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 8687,
+        "averageScores": {
+          "toan": 5.62,
+          "ngu_van": 6.65,
+          "ngoai_ngu": 5.15,
+          "vat_li": 6.84,
+          "hoa_hoc": 7.03,
+          "sinh_hoc": 6.4,
+          "lich_su": 6.27,
+          "dia_li": 6.88,
+          "gdcd": 7.8
+        },
+        "overallAverage": 6.52
+      },
+      "SơnLa": {
+        "displayName": "Sơn La",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 12584,
+        "averageScores": {
+          "toan": 5.24,
+          "ngu_van": 6.52,
+          "ngoai_ngu": 4.38,
+          "vat_li": 6.64,
+          "hoa_hoc": 6.81,
+          "sinh_hoc": 6.57,
+          "lich_su": 6.42,
+          "dia_li": 7.07,
+          "gdcd": 7.94
+        },
+        "overallAverage": 6.4
+      },
+      "PhúThọ": {
+        "displayName": "Phú Thọ",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 16382,
+        "averageScores": {
+          "toan": 6.46,
+          "ngu_van": 7.87,
+          "ngoai_ngu": 5.39,
+          "vat_li": 7.06,
+          "hoa_hoc": 7.05,
+          "sinh_hoc": 6.54,
+          "lich_su": 7.08,
+          "dia_li": 7.71,
+          "gdcd": 8.64
+        },
+        "overallAverage": 7.09
+      },
+      "VĩnhPhúc": {
+        "displayName": "Vĩnh Phúc",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 15461,
+        "averageScores": {
+          "toan": 6.95,
+          "ngu_van": 7.92,
+          "ngoai_ngu": 6.08,
+          "vat_li": 7.49,
+          "hoa_hoc": 7.25,
+          "sinh_hoc": 7,
+          "lich_su": 7.44,
+          "dia_li": 8.07,
+          "gdcd": 8.96
+        },
+        "overallAverage": 7.46
+      },
+      "QuảngNinh": {
+        "displayName": "Quảng Ninh",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 17848,
+        "averageScores": {
+          "toan": 6.08,
+          "ngu_van": 7.18,
+          "ngoai_ngu": 5.75,
+          "vat_li": 6.91,
+          "hoa_hoc": 6.43,
+          "sinh_hoc": 6.23,
+          "lich_su": 6.36,
+          "dia_li": 6.96,
+          "gdcd": 8.12
+        },
+        "overallAverage": 6.67
+      },
+      "BắcGiang": {
+        "displayName": "Bắc Giang",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 21755,
+        "averageScores": {
+          "toan": 6.39,
+          "ngu_van": 7.5,
+          "ngoai_ngu": 5.43,
+          "vat_li": 6.92,
+          "hoa_hoc": 6.79,
+          "sinh_hoc": 6.27,
+          "lich_su": 6.63,
+          "dia_li": 7.36,
+          "gdcd": 8.48
+        },
+        "overallAverage": 6.86
+      },
+      "BắcNinh": {
+        "displayName": "Bắc Ninh",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 17614,
+        "averageScores": {
+          "toan": 7,
+          "ngu_van": 7.97,
+          "ngoai_ngu": 5.98,
+          "vat_li": 7.46,
+          "hoa_hoc": 7.17,
+          "sinh_hoc": 6.22,
+          "lich_su": 7.03,
+          "dia_li": 7.67,
+          "gdcd": 8.36
+        },
+        "overallAverage": 7.21
+      },
+      "HảiDương": {
+        "displayName": "Hải Dương",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 23366,
+        "averageScores": {
+          "toan": 6.64,
+          "ngu_van": 7.75,
+          "ngoai_ngu": 5.52,
+          "vat_li": 7.01,
+          "hoa_hoc": 6.76,
+          "sinh_hoc": 6.28,
+          "lich_su": 6.66,
+          "dia_li": 7.4,
+          "gdcd": 8.58
+        },
+        "overallAverage": 6.96
+      },
+      "HưngYên": {
+        "displayName": "Hưng Yên",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 16329,
+        "averageScores": {
+          "toan": 6.45,
+          "ngu_van": 6.84,
+          "ngoai_ngu": 5.23,
+          "vat_li": 6.72,
+          "hoa_hoc": 6.71,
+          "sinh_hoc": 5.78,
+          "lich_su": 6.36,
+          "dia_li": 6.84,
+          "gdcd": 7.9
+        },
+        "overallAverage": 6.54
+      },
+      "HàNam": {
+        "displayName": "Hà Nam",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 9823,
+        "averageScores": {
+          "toan": 5.43,
+          "ngu_van": 7,
+          "ngoai_ngu": 4.47,
+          "vat_li": 6.86,
+          "hoa_hoc": 7.1,
+          "sinh_hoc": 6.33,
+          "lich_su": 6.56,
+          "dia_li": 7.2,
+          "gdcd": 8.14
+        },
+        "overallAverage": 6.57
+      },
+      "NamĐịnh": {
+        "displayName": "Nam Định",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 9564,
+        "averageScores": {
+          "toan": 6.89,
+          "ngu_van": 8.05,
+          "ngoai_ngu": 5.47,
+          "vat_li": 6.93,
+          "hoa_hoc": 7.05,
+          "sinh_hoc": 6.22,
+          "lich_su": 6.82,
+          "dia_li": 7.45,
+          "gdcd": 8.62
+        },
+        "overallAverage": 7.06
+      },
+      "TháiBình": {
+        "displayName": "Thái Bình",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 21760,
+        "averageScores": {
+          "toan": 7.26,
+          "ngu_van": 8.05,
+          "ngoai_ngu": 5.86,
+          "vat_li": 7.24,
+          "hoa_hoc": 7.28,
+          "sinh_hoc": 6.76,
+          "lich_su": 7.14,
+          "dia_li": 7.93,
+          "gdcd": 8.8
+        },
+        "overallAverage": 7.37
+      },
+      "NinhBình": {
+        "displayName": "Ninh Bình",
+        "region": "Đồng bằng sông Hồng",
+        "totalStudents": 22580,
+        "averageScores": {
+          "toan": 6.91,
+          "ngu_van": 7.31,
+          "ngoai_ngu": 5.69,
+          "vat_li": 6.82,
+          "hoa_hoc": 6.97,
+          "sinh_hoc": 6.4,
+          "lich_su": 6.81,
+          "dia_li": 7.5,
+          "gdcd": 8.53
+        },
+        "overallAverage": 6.99
+      },
+      "ThanhHóa": {
+        "displayName": "Thanh Hóa",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 11749,
+        "averageScores": {
+          "toan": 6.95,
+          "ngu_van": 8.17,
+          "ngoai_ngu": 5.83,
+          "vat_li": 7.22,
+          "hoa_hoc": 7.17,
+          "sinh_hoc": 6.84,
+          "lich_su": 7.28,
+          "dia_li": 8,
+          "gdcd": 8.76
+        },
+        "overallAverage": 7.36
+      },
+      "NghệAn": {
+        "displayName": "Nghệ An",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 38532,
+        "averageScores": {
+          "toan": 6.17,
+          "ngu_van": 8,
+          "ngoai_ngu": 5.05,
+          "vat_li": 6.85,
+          "hoa_hoc": 6.87,
+          "sinh_hoc": 6.34,
+          "lich_su": 6.58,
+          "dia_li": 7.27,
+          "gdcd": 8.32
+        },
+        "overallAverage": 6.83
+      },
+      "HàTĩnh": {
+        "displayName": "Hà Tĩnh",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 36729,
+        "averageScores": {
+          "toan": 6.44,
+          "ngu_van": 8.04,
+          "ngoai_ngu": 5.32,
+          "vat_li": 6.95,
+          "hoa_hoc": 7.2,
+          "sinh_hoc": 6.48,
+          "lich_su": 6.77,
+          "dia_li": 7.31,
+          "gdcd": 8.12
+        },
+        "overallAverage": 6.96
+      },
+      "QuảngBình": {
+        "displayName": "Quảng Bình",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 17004,
+        "averageScores": {
+          "toan": 6.5,
+          "ngu_van": 7.88,
+          "ngoai_ngu": 5.66,
+          "vat_li": 7.23,
+          "hoa_hoc": 7.33,
+          "sinh_hoc": 6.62,
+          "lich_su": 6.86,
+          "dia_li": 7.67,
+          "gdcd": 8.49
+        },
+        "overallAverage": 7.14
+      },
+      "QuảngTrị": {
+        "displayName": "Quảng Trị",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 11189,
+        "averageScores": {
+          "toan": 6.12,
+          "ngu_van": 6.77,
+          "ngoai_ngu": 5.24,
+          "vat_li": 6.8,
+          "hoa_hoc": 7.06,
+          "sinh_hoc": 6.45,
+          "lich_su": 6.56,
+          "dia_li": 7.06,
+          "gdcd": 7.96
+        },
+        "overallAverage": 6.67
+      },
+      "ThừaThiênHuế": {
+        "displayName": "Thừa Thiên Huế",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 8359,
+        "averageScores": {
+          "toan": 6.03,
+          "ngu_van": 6.48,
+          "ngoai_ngu": 4.73,
+          "vat_li": 6.63,
+          "hoa_hoc": 6.72,
+          "sinh_hoc": 5.96,
+          "lich_su": 6.15,
+          "dia_li": 6.84,
+          "gdcd": 7.67
+        },
+        "overallAverage": 6.36
+      },
+      "QuảngNam": {
+        "displayName": "Quảng Nam",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 12774,
+        "averageScores": {
+          "toan": 6.52,
+          "ngu_van": 7.25,
+          "ngoai_ngu": 5.41,
+          "vat_li": 6.92,
+          "hoa_hoc": 6.98,
+          "sinh_hoc": 6.07,
+          "lich_su": 6.51,
+          "dia_li": 7.07,
+          "gdcd": 7.95
+        },
+        "overallAverage": 6.74
+      },
+      "QuảngNgãi": {
+        "displayName": "Quảng Ngãi",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 17292,
+        "averageScores": {
+          "toan": 6.26,
+          "ngu_van": 6.38,
+          "ngoai_ngu": 5.06,
+          "vat_li": 6.75,
+          "hoa_hoc": 6.72,
+          "sinh_hoc": 5.97,
+          "lich_su": 6.14,
+          "dia_li": 6.66,
+          "gdcd": 7.59
+        },
+        "overallAverage": 6.39
+      },
+      "KonTum": {
+        "displayName": "Kon Tum",
+        "region": "Tây Nguyên",
+        "totalStudents": 14354,
+        "averageScores": {
+          "toan": 6.35,
+          "ngu_van": 6.97,
+          "ngoai_ngu": 5.51,
+          "vat_li": 6.72,
+          "hoa_hoc": 6.84,
+          "sinh_hoc": 5.76,
+          "lich_su": 6.1,
+          "dia_li": 6.48,
+          "gdcd": 7.33
+        },
+        "overallAverage": 6.45
+      },
+      "GiaLai": {
+        "displayName": "Gia Lai",
+        "region": "Tây Nguyên",
+        "totalStudents": 5038,
+        "averageScores": {
+          "toan": 6.11,
+          "ngu_van": 6.72,
+          "ngoai_ngu": 4.86,
+          "vat_li": 6.76,
+          "hoa_hoc": 6.76,
+          "sinh_hoc": 6.31,
+          "lich_su": 6.42,
+          "dia_li": 7.04,
+          "gdcd": 7.83
+        },
+        "overallAverage": 6.53
+      },
+      "BìnhĐịnh": {
+        "displayName": "Bình Định",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 19342,
+        "averageScores": {
+          "toan": 6.53,
+          "ngu_van": 6.65,
+          "ngoai_ngu": 5.65,
+          "vat_li": 6.85,
+          "hoa_hoc": 6.84,
+          "sinh_hoc": 6.34,
+          "lich_su": 6.5,
+          "dia_li": 7.06,
+          "gdcd": 8.01
+        },
+        "overallAverage": 6.71
+      },
+      "PhúYên": {
+        "displayName": "Phú Yên",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 15201,
+        "averageScores": {
+          "toan": 6.05,
+          "ngu_van": 6.49,
+          "ngoai_ngu": 4.94,
+          "vat_li": 6.55,
+          "hoa_hoc": 6.59,
+          "sinh_hoc": 6.15,
+          "lich_su": 6.27,
+          "dia_li": 6.82,
+          "gdcd": 7.74
+        },
+        "overallAverage": 6.4
+      },
+      "ĐắkLắk": {
+        "displayName": "Đắk Lắk",
+        "region": "Tây Nguyên",
+        "totalStudents": 10622,
+        "averageScores": {
+          "toan": 6.3,
+          "ngu_van": 6.59,
+          "ngoai_ngu": 4.99,
+          "vat_li": 6.33,
+          "hoa_hoc": 6.62,
+          "sinh_hoc": 6.01,
+          "lich_su": 6.2,
+          "dia_li": 6.83,
+          "gdcd": 7.73
+        },
+        "overallAverage": 6.4
+      },
+      "KhánhHòa": {
+        "displayName": "Khánh Hòa",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 20865,
+        "averageScores": {
+          "toan": 5.8,
+          "ngu_van": 6.58,
+          "ngoai_ngu": 4.65,
+          "vat_li": 6.25,
+          "hoa_hoc": 6.43,
+          "sinh_hoc": 5.83,
+          "lich_su": 5.97,
+          "dia_li": 6.62,
+          "gdcd": 7.61
+        },
+        "overallAverage": 6.19
+      },
+      "LâmĐồng": {
+        "displayName": "Lâm Đồng",
+        "region": "Tây Nguyên",
+        "totalStudents": 14388,
+        "averageScores": {
+          "toan": 6.35,
+          "ngu_van": 7.28,
+          "ngoai_ngu": 5.52,
+          "vat_li": 6.35,
+          "hoa_hoc": 6.33,
+          "sinh_hoc": 5.98,
+          "lich_su": 6.08,
+          "dia_li": 6.82,
+          "gdcd": 7.88
+        },
+        "overallAverage": 6.51
+      },
+      "BìnhPhước": {
+        "displayName": "Bình Phước",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 15372,
+        "averageScores": {
+          "toan": 6.52,
+          "ngu_van": 6.91,
+          "ngoai_ngu": 5.61,
+          "vat_li": 6.66,
+          "hoa_hoc": 6.73,
+          "sinh_hoc": 6.55,
+          "lich_su": 6.47,
+          "dia_li": 7.25,
+          "gdcd": 8.17
+        },
+        "overallAverage": 6.76
+      },
+      "BìnhDương": {
+        "displayName": "Bình Dương",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 11304,
+        "averageScores": {
+          "toan": 6.43,
+          "ngu_van": 6.76,
+          "ngoai_ngu": 5.27,
+          "vat_li": 6.69,
+          "hoa_hoc": 6.6,
+          "sinh_hoc": 6.32,
+          "lich_su": 6.64,
+          "dia_li": 7.41,
+          "gdcd": 8.28
+        },
+        "overallAverage": 6.71
+      },
+      "NinhThuận": {
+        "displayName": "Ninh Thuận",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 15239,
+        "averageScores": {
+          "toan": 7.13,
+          "ngu_van": 7.46,
+          "ngoai_ngu": 6.65,
+          "vat_li": 7.05,
+          "hoa_hoc": 7.14,
+          "sinh_hoc": 6.77,
+          "lich_su": 7.1,
+          "dia_li": 7.8,
+          "gdcd": 8.78
+        },
+        "overallAverage": 7.32
+      },
+      "TâyNinh": {
+        "displayName": "Tây Ninh",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 6288,
+        "averageScores": {
+          "toan": 5.99,
+          "ngu_van": 6.12,
+          "ngoai_ngu": 4.93,
+          "vat_li": 6.41,
+          "hoa_hoc": 6.48,
+          "sinh_hoc": 6.06,
+          "lich_su": 6.19,
+          "dia_li": 6.8,
+          "gdcd": 7.7
+        },
+        "overallAverage": 6.3
+      },
+      "BìnhThuận": {
+        "displayName": "Bình Thuận",
+        "region": "Bắc Trung Bộ và Duyên hải miền Trung",
+        "totalStudents": 10486,
+        "averageScores": {
+          "toan": 6.28,
+          "ngu_van": 6.78,
+          "ngoai_ngu": 5.15,
+          "vat_li": 6.37,
+          "hoa_hoc": 6.48,
+          "sinh_hoc": 6.23,
+          "lich_su": 6.29,
+          "dia_li": 7.03,
+          "gdcd": 8.09
+        },
+        "overallAverage": 6.52
+      },
+      "ĐồngNai": {
+        "displayName": "Đồng Nai",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 13133,
+        "averageScores": {
+          "toan": 6.36,
+          "ngu_van": 6.88,
+          "ngoai_ngu": 5.21,
+          "vat_li": 6.69,
+          "hoa_hoc": 6.7,
+          "sinh_hoc": 6.4,
+          "lich_su": 6.47,
+          "dia_li": 7.08,
+          "gdcd": 8.05
+        },
+        "overallAverage": 6.65
+      },
+      "BàRịa-VũngTàu": {
+        "displayName": "Bà Rịa-Vũng Tàu",
+        "region": "Đông Nam Bộ",
+        "totalStudents": 33800,
+        "averageScores": {
+          "toan": 6.34,
+          "ngu_van": 6.7,
+          "ngoai_ngu": 5.67,
+          "vat_li": 6.46,
+          "hoa_hoc": 6.45,
+          "sinh_hoc": 6.05,
+          "lich_su": 6.21,
+          "dia_li": 6.89,
+          "gdcd": 8.01
+        },
+        "overallAverage": 6.53
+      },
+      "LongAn": {
+        "displayName": "Long An",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 15771,
+        "averageScores": {
+          "toan": 6.59,
+          "ngu_van": 6.8,
+          "ngoai_ngu": 5.43,
+          "vat_li": 6.43,
+          "hoa_hoc": 6.7,
+          "sinh_hoc": 6.41,
+          "lich_su": 6.55,
+          "dia_li": 7.23,
+          "gdcd": 8.24
+        },
+        "overallAverage": 6.71
+      },
+      "TiềnGiang": {
+        "displayName": "Tiền Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 16464,
+        "averageScores": {
+          "toan": 6.42,
+          "ngu_van": 7.32,
+          "ngoai_ngu": 5.18,
+          "vat_li": 6.25,
+          "hoa_hoc": 6.65,
+          "sinh_hoc": 6.43,
+          "lich_su": 6.58,
+          "dia_li": 7.26,
+          "gdcd": 8.19
+        },
+        "overallAverage": 6.7
+      },
+      "BếnTre": {
+        "displayName": "Bến Tre",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 20251,
+        "averageScores": {
+          "toan": 6.58,
+          "ngu_van": 7.72,
+          "ngoai_ngu": 5.52,
+          "vat_li": 6.76,
+          "hoa_hoc": 6.82,
+          "sinh_hoc": 6.7,
+          "lich_su": 6.97,
+          "dia_li": 7.69,
+          "gdcd": 8.45
+        },
+        "overallAverage": 7.02
+      },
+      "TràVinh": {
+        "displayName": "Trà Vinh",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12635,
+        "averageScores": {
+          "toan": 6.89,
+          "ngu_van": 7.4,
+          "ngoai_ngu": 6.22,
+          "vat_li": 6.48,
+          "hoa_hoc": 6.36,
+          "sinh_hoc": 6.13,
+          "lich_su": 6.63,
+          "dia_li": 7.34,
+          "gdcd": 8.39
+        },
+        "overallAverage": 6.87
+      },
+      "VĩnhLong": {
+        "displayName": "Vĩnh Long",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 16273,
+        "averageScores": {
+          "toan": 6.73,
+          "ngu_van": 7.68,
+          "ngoai_ngu": 5.4,
+          "vat_li": 6.61,
+          "hoa_hoc": 6.83,
+          "sinh_hoc": 6.4,
+          "lich_su": 6.63,
+          "dia_li": 7.48,
+          "gdcd": 8.35
+        },
+        "overallAverage": 6.9
+      },
+      "ĐồngTháp": {
+        "displayName": "Đồng Tháp",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 15035,
+        "averageScores": {
+          "toan": 6.08,
+          "ngu_van": 7.37,
+          "ngoai_ngu": 5.07,
+          "vat_li": 6.23,
+          "hoa_hoc": 6.41,
+          "sinh_hoc": 6.54,
+          "lich_su": 6.6,
+          "dia_li": 7.1,
+          "gdcd": 8.17
+        },
+        "overallAverage": 6.62
+      },
+      "AnGiang": {
+        "displayName": "An Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12841,
+        "averageScores": {
+          "toan": 6.49,
+          "ngu_van": 6.96,
+          "ngoai_ngu": 5.43,
+          "vat_li": 6.44,
+          "hoa_hoc": 6.81,
+          "sinh_hoc": 6.55,
+          "lich_su": 6.62,
+          "dia_li": 7.18,
+          "gdcd": 8.23
+        },
+        "overallAverage": 6.75
+      },
+      "KiênGiang": {
+        "displayName": "Kiên Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12145,
+        "averageScores": {
+          "toan": 6.46,
+          "ngu_van": 6.52,
+          "ngoai_ngu": 5.18,
+          "vat_li": 6.49,
+          "hoa_hoc": 6.89,
+          "sinh_hoc": 6.62,
+          "lich_su": 6.52,
+          "dia_li": 7.21,
+          "gdcd": 8.33
+        },
+        "overallAverage": 6.69
+      },
+      "CầnThơ": {
+        "displayName": "Cần Thơ",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10913,
+        "averageScores": {
+          "toan": 6.59,
+          "ngu_van": 6.44,
+          "ngoai_ngu": 5.49,
+          "vat_li": 6.77,
+          "hoa_hoc": 6.89,
+          "sinh_hoc": 7.01,
+          "lich_su": 6.78,
+          "dia_li": 7.55,
+          "gdcd": 8.47
+        },
+        "overallAverage": 6.89
+      },
+      "HậuGiang": {
+        "displayName": "Hậu Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 9686,
+        "averageScores": {
+          "toan": 5.77,
+          "ngu_van": 8.09,
+          "ngoai_ngu": 4.69,
+          "vat_li": 6.02,
+          "hoa_hoc": 6.47,
+          "sinh_hoc": 6.6,
+          "lich_su": 6.19,
+          "dia_li": 7.03,
+          "gdcd": 8
+        },
+        "overallAverage": 6.54
+      },
+      "SócTrăng": {
+        "displayName": "Sóc Trăng",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10642,
+        "averageScores": {
+          "toan": 5.83,
+          "ngu_van": 7.8,
+          "ngoai_ngu": 4.68,
+          "vat_li": 6.17,
+          "hoa_hoc": 6.29,
+          "sinh_hoc": 6.38,
+          "lich_su": 6.24,
+          "dia_li": 6.82,
+          "gdcd": 7.92
+        },
+        "overallAverage": 6.46
+      },
+      "BạcLiêu": {
+        "displayName": "Bạc Liêu",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 6384,
+        "averageScores": {
+          "toan": 6.58,
+          "ngu_van": 7.39,
+          "ngoai_ngu": 5.08,
+          "vat_li": 6.54,
+          "hoa_hoc": 6.7,
+          "sinh_hoc": 6.67,
+          "lich_su": 6.95,
+          "dia_li": 7.57,
+          "gdcd": 8.32
+        },
+        "overallAverage": 6.87
+      },
+      "CàMau": {
+        "displayName": "Cà Mau",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10151,
+        "averageScores": {
+          "toan": 6.14,
+          "ngu_van": 6.64,
+          "ngoai_ngu": 4.82,
+          "vat_li": 5.99,
+          "hoa_hoc": 6.03,
+          "sinh_hoc": 6.29,
+          "lich_su": 6.65,
+          "dia_li": 7.27,
+          "gdcd": 8.2
+        },
+        "overallAverage": 6.45
+      },
+      "ĐiệnBiên": {
+        "displayName": "Điện Biên",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 7216,
+        "averageScores": {
+          "toan": 5.28,
+          "ngu_van": 6.57,
+          "ngoai_ngu": 4.13,
+          "vat_li": 6.26,
+          "hoa_hoc": 6.64,
+          "sinh_hoc": 6.12,
+          "lich_su": 6.32,
+          "dia_li": 7.04,
+          "gdcd": 7.57
+        },
+        "overallAverage": 6.21
+      },
+      "HoàBình": {
+        "displayName": "Hòa Bình",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 7681,
+        "averageScores": {
+          "toan": 5.84,
+          "ngu_van": 6.51,
+          "ngoai_ngu": 4.35,
+          "vat_li": 6.21,
+          "hoa_hoc": 6.34,
+          "sinh_hoc": 5.97,
+          "lich_su": 6.35,
+          "dia_li": 6.93,
+          "gdcd": 7.76
+        },
+        "overallAverage": 6.25
+      },
+      "ĐắkNông": {
+        "displayName": "Đắk Nông",
+        "region": "Tây Nguyên",
+        "totalStudents": 7261,
+        "averageScores": {
+          "toan": 5.88,
+          "ngu_van": 6.91,
+          "ngoai_ngu": 4.55,
+          "vat_li": 6.16,
+          "hoa_hoc": 6.65,
+          "sinh_hoc": 6.39,
+          "lich_su": 6.43,
+          "dia_li": 7.14,
+          "gdcd": 8.06
+        },
+        "overallAverage": 6.46
+      }
+    },
+    "2025": {
+      "TràVinh": {
+        "displayName": "Trà Vinh",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 982,
+        "averageScores": {
+          "toan": 4.72,
+          "ngu_van": 6.46,
+          "ngoai_ngu": 4.49,
+          "vat_li": 6.15,
+          "hoa_hoc": 5.15,
+          "sinh_hoc": 5.16,
+          "lich_su": 6.72,
+          "dia_li": 6.97
+        },
+        "overallAverage": 5.73
+      },
+      "VĩnhLong": {
+        "displayName": "Vĩnh Long",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 16565,
+        "averageScores": {
+          "toan": 4.83,
+          "ngu_van": 7.02,
+          "ngoai_ngu": 4.99,
+          "vat_li": 6.89,
+          "hoa_hoc": 5.85,
+          "sinh_hoc": 5.76,
+          "lich_su": 6.58,
+          "dia_li": 6.91
+        },
+        "overallAverage": 6.1
+      },
+      "ĐồngTháp": {
+        "displayName": "Đồng Tháp",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 15249,
+        "averageScores": {
+          "toan": 4.26,
+          "ngu_van": 6.96,
+          "ngoai_ngu": 4.89,
+          "vat_li": 6.6,
+          "hoa_hoc": 5.54,
+          "sinh_hoc": 5.55,
+          "lich_su": 6.49,
+          "dia_li": 6.44
+        },
+        "overallAverage": 5.84
+      },
+      "AnGiang": {
+        "displayName": "An Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 13285,
+        "averageScores": {
+          "toan": 4.59,
+          "ngu_van": 7.21,
+          "ngoai_ngu": 5.37,
+          "vat_li": 6.93,
+          "hoa_hoc": 6.11,
+          "sinh_hoc": 6.26,
+          "lich_su": 6.61,
+          "dia_li": 6.72
+        },
+        "overallAverage": 6.22
+      },
+      "KiênGiang": {
+        "displayName": "Kiên Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 12215,
+        "averageScores": {
+          "toan": 4.59,
+          "ngu_van": 6.93,
+          "ngoai_ngu": 4.99,
+          "vat_li": 6.71,
+          "hoa_hoc": 5.95,
+          "sinh_hoc": 5.9,
+          "lich_su": 6.35,
+          "dia_li": 6.65
+        },
+        "overallAverage": 6.01
+      },
+      "CầnThơ": {
+        "displayName": "Cần Thơ",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 11484,
+        "averageScores": {
+          "toan": 4.48,
+          "ngu_van": 5.98,
+          "ngoai_ngu": 5.05,
+          "vat_li": 6.92,
+          "hoa_hoc": 6.03,
+          "sinh_hoc": 5.88,
+          "lich_su": 6.73,
+          "dia_li": 6.79
+        },
+        "overallAverage": 5.98
+      },
+      "HậuGiang": {
+        "displayName": "Hậu Giang",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10056,
+        "averageScores": {
+          "toan": 4.03,
+          "ngu_van": 7.36,
+          "ngoai_ngu": 4.84,
+          "vat_li": 6.34,
+          "hoa_hoc": 5.39,
+          "sinh_hoc": 5.21,
+          "lich_su": 6.1,
+          "dia_li": 6.15
+        },
+        "overallAverage": 5.68
+      },
+      "SócTrăng": {
+        "displayName": "Sóc Trăng",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 11173,
+        "averageScores": {
+          "toan": 4.07,
+          "ngu_van": 7.27,
+          "ngoai_ngu": 4.76,
+          "vat_li": 6.4,
+          "hoa_hoc": 5.46,
+          "sinh_hoc": 5.25,
+          "lich_su": 6.22,
+          "dia_li": 6.24
+        },
+        "overallAverage": 5.71
+      },
+      "BạcLiêu": {
+        "displayName": "Bạc Liêu",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 6737,
+        "averageScores": {
+          "toan": 4.62,
+          "ngu_van": 7.08,
+          "ngoai_ngu": 5.23,
+          "vat_li": 6.74,
+          "hoa_hoc": 5.93,
+          "sinh_hoc": 5.89,
+          "lich_su": 6.95,
+          "dia_li": 7.07
+        },
+        "overallAverage": 6.19
+      },
+      "CàMau": {
+        "displayName": "Cà Mau",
+        "region": "Đồng bằng sông Cửu Long",
+        "totalStudents": 10885,
+        "averageScores": {
+          "toan": 4.26,
+          "ngu_van": 6.92,
+          "ngoai_ngu": 4.86,
+          "vat_li": 6.34,
+          "hoa_hoc": 5.24,
+          "sinh_hoc": 5.6,
+          "lich_su": 6.8,
+          "dia_li": 6.84
+        },
+        "overallAverage": 5.86
+      },
+      "ĐiệnBiên": {
+        "displayName": "Điện Biên",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 6987,
+        "averageScores": {
+          "toan": 3.81,
+          "ngu_van": 6.83,
+          "ngoai_ngu": 5.55,
+          "vat_li": 6.47,
+          "hoa_hoc": 5.58,
+          "sinh_hoc": 5.02,
+          "lich_su": 6.3,
+          "dia_li": 6.49
+        },
+        "overallAverage": 5.76
+      },
+      "HoàBình": {
+        "displayName": "Hòa Bình",
+        "region": "Trung du và miền núi phía Bắc",
+        "totalStudents": 8284,
+        "averageScores": {
+          "toan": 4.23,
+          "ngu_van": 6.52,
+          "ngoai_ngu": 4.92,
+          "vat_li": 6.44,
+          "hoa_hoc": 5.39,
+          "sinh_hoc": 5.44,
+          "lich_su": 6.36,
+          "dia_li": 6.65
+        },
+        "overallAverage": 5.74
+      },
+      "ĐắkNông": {
+        "displayName": "Đắk Nông",
+        "region": "Tây Nguyên",
+        "totalStudents": 7234,
+        "averageScores": {
+          "toan": 4.14,
+          "ngu_van": 7.33,
+          "ngoai_ngu": 4.83,
+          "vat_li": 6.47,
+          "hoa_hoc": 5.53,
+          "sinh_hoc": 5.52,
+          "lich_su": 6.43,
+          "dia_li": 6.61
+        },
+        "overallAverage": 5.86
+      }
+    }
+  },
+  "provinceDisplayNames": {
+    "HàNội": "Hà Nội",
+    "HồChíMinh": "TP. Hồ Chí Minh",
+    "HảiPhòng": "Hải Phòng",
+    "ĐàNẵng": "Đà Nẵng",
+    "HàGiang": "Hà Giang",
+    "CaoBằng": "Cao Bằng",
+    "LaiChâu": "Lai Châu",
+    "LàoCai": "Lào Cai",
+    "TuyênQuang": "Tuyên Quang",
+    "LạngSơn": "Lạng Sơn",
+    "BắcKạn": "Bắc Kạn",
+    "TháiNguyên": "Thái Nguyên",
+    "YênBái": "Yên Bái",
+    "SơnLa": "Sơn La",
+    "PhúThọ": "Phú Thọ",
+    "VĩnhPhúc": "Vĩnh Phúc",
+    "QuảngNinh": "Quảng Ninh",
+    "BắcGiang": "Bắc Giang",
+    "BắcNinh": "Bắc Ninh",
+    "HảiDương": "Hải Dương",
+    "HưngYên": "Hưng Yên",
+    "HàNam": "Hà Nam",
+    "NamĐịnh": "Nam Định",
+    "TháiBình": "Thái Bình",
+    "NinhBình": "Ninh Bình",
+    "ThanhHóa": "Thanh Hóa",
+    "NghệAn": "Nghệ An",
+    "HàTĩnh": "Hà Tĩnh",
+    "QuảngBình": "Quảng Bình",
+    "QuảngTrị": "Quảng Trị",
+    "ThừaThiênHuế": "Thừa Thiên Huế",
+    "QuảngNam": "Quảng Nam",
+    "QuảngNgãi": "Quảng Ngãi",
+    "KonTum": "Kon Tum",
+    "GiaLai": "Gia Lai",
+    "BìnhĐịnh": "Bình Định",
+    "PhúYên": "Phú Yên",
+    "ĐắkLắk": "Đắk Lắk",
+    "KhánhHòa": "Khánh Hòa",
+    "LâmĐồng": "Lâm Đồng",
+    "BìnhPhước": "Bình Phước",
+    "BìnhDương": "Bình Dương",
+    "NinhThuận": "Ninh Thuận",
+    "TâyNinh": "Tây Ninh",
+    "BìnhThuận": "Bình Thuận",
+    "ĐồngNai": "Đồng Nai",
+    "BàRịa-VũngTàu": "Bà Rịa-Vũng Tàu",
+    "LongAn": "Long An",
+    "TiềnGiang": "Tiền Giang",
+    "BếnTre": "Bến Tre",
+    "TràVinh": "Trà Vinh",
+    "VĩnhLong": "Vĩnh Long",
+    "ĐồngTháp": "Đồng Tháp",
+    "AnGiang": "An Giang",
+    "KiênGiang": "Kiên Giang",
+    "CầnThơ": "Cần Thơ",
+    "HậuGiang": "Hậu Giang",
+    "SócTrăng": "Sóc Trăng",
+    "BạcLiêu": "Bạc Liêu",
+    "CàMau": "Cà Mau",
+    "ĐiệnBiên": "Điện Biên",
+    "HoàBình": "Hòa Bình",
+    "ĐắkNông": "Đắk Nông"
+  },
+  "regionMap": {
+    "HàNội": "Đồng bằng sông Hồng",
+    "HồChíMinh": "Đông Nam Bộ",
+    "HảiPhòng": "Đồng bằng sông Hồng",
+    "ĐàNẵng": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "HàGiang": "Trung du và miền núi phía Bắc",
+    "CaoBằng": "Trung du và miền núi phía Bắc",
+    "LaiChâu": "Trung du và miền núi phía Bắc",
+    "LàoCai": "Trung du và miền núi phía Bắc",
+    "TuyênQuang": "Trung du và miền núi phía Bắc",
+    "LạngSơn": "Trung du và miền núi phía Bắc",
+    "BắcKạn": "Trung du và miền núi phía Bắc",
+    "TháiNguyên": "Trung du và miền núi phía Bắc",
+    "YênBái": "Trung du và miền núi phía Bắc",
+    "SơnLa": "Trung du và miền núi phía Bắc",
+    "PhúThọ": "Trung du và miền núi phía Bắc",
+    "VĩnhPhúc": "Đồng bằng sông Hồng",
+    "QuảngNinh": "Đồng bằng sông Hồng",
+    "BắcGiang": "Trung du và miền núi phía Bắc",
+    "BắcNinh": "Đồng bằng sông Hồng",
+    "HảiDương": "Đồng bằng sông Hồng",
+    "HưngYên": "Đồng bằng sông Hồng",
+    "HàNam": "Đồng bằng sông Hồng",
+    "NamĐịnh": "Đồng bằng sông Hồng",
+    "TháiBình": "Đồng bằng sông Hồng",
+    "NinhBình": "Đồng bằng sông Hồng",
+    "ThanhHóa": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "NghệAn": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "HàTĩnh": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "QuảngBình": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "QuảngTrị": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "ThừaThiênHuế": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "QuảngNam": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "QuảngNgãi": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "KonTum": "Tây Nguyên",
+    "GiaLai": "Tây Nguyên",
+    "BìnhĐịnh": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "PhúYên": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "ĐắkLắk": "Tây Nguyên",
+    "KhánhHòa": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "LâmĐồng": "Tây Nguyên",
+    "BìnhPhước": "Đông Nam Bộ",
+    "BìnhDương": "Đông Nam Bộ",
+    "NinhThuận": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "TâyNinh": "Đông Nam Bộ",
+    "BìnhThuận": "Bắc Trung Bộ và Duyên hải miền Trung",
+    "ĐồngNai": "Đông Nam Bộ",
+    "BàRịa-VũngTàu": "Đông Nam Bộ",
+    "LongAn": "Đồng bằng sông Cửu Long",
+    "TiềnGiang": "Đồng bằng sông Cửu Long",
+    "BếnTre": "Đồng bằng sông Cửu Long",
+    "TràVinh": "Đồng bằng sông Cửu Long",
+    "VĩnhLong": "Đồng bằng sông Cửu Long",
+    "ĐồngTháp": "Đồng bằng sông Cửu Long",
+    "AnGiang": "Đồng bằng sông Cửu Long",
+    "KiênGiang": "Đồng bằng sông Cửu Long",
+    "CầnThơ": "Đồng bằng sông Cửu Long",
+    "HậuGiang": "Đồng bằng sông Cửu Long",
+    "SócTrăng": "Đồng bằng sông Cửu Long",
+    "BạcLiêu": "Đồng bằng sông Cửu Long",
+    "CàMau": "Đồng bằng sông Cửu Long",
+    "ĐiệnBiên": "Trung du và miền núi phía Bắc",
+    "HoàBình": "Trung du và miền núi phía Bắc",
+    "ĐắkNông": "Tây Nguyên"
+  }
+}
