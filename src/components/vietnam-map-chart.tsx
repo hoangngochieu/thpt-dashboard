@@ -100,13 +100,17 @@ export function VietnamMapChart({
   const [hoveredProvince, setHoveredProvince] = useState<string | null>(null)
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
 
-  // Fetch GeoJSON
+  // Fetch GeoJSON — 34-province map for 2025, 63-province for 2023/2024
   useEffect(() => {
-    fetch("/vietnam-simplified.geojson")
+    const geoFile = selectedYear === "2025"
+      ? "/vietnam-34provinces.geojson"
+      : "/vietnam-simplified.geojson"
+    setGeoData(null) // clear while loading
+    fetch(geoFile)
       .then(r => r.json())
       .then(data => setGeoData(data))
       .catch(err => console.error("Failed to load GeoJSON:", err))
-  }, [])
+  }, [selectedYear])
 
   const yearData = provinceData[selectedYear] || {}
 
@@ -140,15 +144,23 @@ export function VietnamMapChart({
   const minScore = sortedProvinces.length > 0 ? sortedProvinces[0].score : 0
   const maxScore = sortedProvinces.length > 0 ? sortedProvinces[sortedProvinces.length - 1].score : 10
 
-  // D3 projection for Vietnam
+  // D3 projection for Vietnam – fitSize auto-adapts to whichever GeoJSON is loaded
   const width = 400
   const height = 600
-  const projection = d3Geo.geoMercator()
-    .center([108, 16])
-    .scale(1800)
-    .translate([width / 2, height / 2])
 
-  const pathGenerator = d3Geo.geoPath().projection(projection)
+  // Compute projection from current geoData bounds so both 63- and 34-province maps render correctly
+  const projection = useMemo(() => {
+    const proj = d3Geo.geoMercator()
+    if (geoData && geoData.features.length > 0) {
+      proj.fitSize([width, height], geoData as any)
+    } else {
+      // Fallback: approximate Vietnam center
+      proj.center([106.0, 15.9]).scale(1600).translate([width / 2, height / 2])
+    }
+    return proj
+  }, [geoData, width, height])
+
+  const pathGenerator = useMemo(() => d3Geo.geoPath().projection(projection), [projection])
 
   // Handle mouse events
   const handleMouseMove = (e: React.MouseEvent, provinceName: string) => {
