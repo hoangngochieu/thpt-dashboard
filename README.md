@@ -9,13 +9,13 @@ Bảng điều khiển tương tác trực quan phân tích dữ liệu điểm 
 ## 📸 Demo Screenshots / Hình ảnh Minh họa
 
 ### 1. Dashboard Overview / Tổng quan Bảng điều khiển
-![Dashboard Overview](docs/screenshots/image.png)
+![Dashboard Overview](docs/screenshots/image_over.png)
 
 ### 2. Multi-Year Comparisons / So sánh Đối chiếu Liên năm
-![Charts Comparison](docs/screenshots/image copy.png)
+![Charts Comparison](docs/screenshots/image_map.png)
 
 ### 3. Interactive Choropleth Map / Bản đồ Nhiệt Địa lý
-![Choropleth Map](docs/screenshots/image copy 2.png)
+![Choropleth Map](docs/screenshots/image_compare.png)
 
 ---
 
