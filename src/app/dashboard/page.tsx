@@ -56,34 +56,38 @@ export default function Page() {
                 <SectionCards currentYear={currentYear} data={yearsData} />
               </div>
 
-              {/* Section 2: Average Scores (Grouped Bar) + Score Distribution (Area Overlay) */}
-              <div id="average" className="grid gap-4 px-4 lg:grid-cols-2 lg:px-6 scroll-mt-16">
-                <AverageScoreChart data={yearsData} />
-                <ScoreDistributionChart data={yearsData} />
+              {/* Section 2: Điểm số theo Môn học & Phổ điểm & Phân hóa */}
+              <div className="grid gap-4 px-4 lg:grid-cols-2 lg:px-6">
+                <div id="average-scores" className="scroll-mt-16">
+                  <AverageScoreChart data={yearsData} />
+                </div>
+                <div id="score-distribution" className="scroll-mt-16">
+                  <ScoreDistributionChart data={yearsData} />
+                </div>
               </div>
 
-              {/* Section 3: Radar + Line Trend */}
-              <div id="comparison" className="grid gap-4 px-4 lg:grid-cols-2 lg:px-6 scroll-mt-16">
+              {/* Section 3: Cơ cấu & Tổ hợp thi */}
+              <div id="participation-stats" className="px-4 lg:px-6 scroll-mt-16">
+                <ParticipationChart data={yearsData} />
+              </div>
+
+              {/* Section 4: Biến động & Xu hướng (Radar + Line Trend) */}
+              <div id="year-trends" className="grid gap-4 px-4 lg:grid-cols-2 lg:px-6 scroll-mt-16">
                 <YearComparisonChart data={yearsData} />
                 <SubjectTrendChart data={yearsData} />
               </div>
 
-              {/* Section 4: Participation Chart */}
-              <div id="distribution" className="px-4 lg:px-6 scroll-mt-16">
-                <ParticipationChart data={yearsData} />
-              </div>
-
-              {/* Section 5: Vietnam Map - Province Comparison */}
-              <div id="map" className="px-4 lg:px-6 scroll-mt-16">
+              {/* Section 5: Phân bố Địa lý (Bản đồ) */}
+              <div id="geographic-map" className="px-4 lg:px-6 scroll-mt-16">
                 <VietnamMapChart provinceData={provinceData} />
               </div>
 
-              {/* Section 6: Stats Table */}
-              <div id="stats" className="px-4 lg:px-6 scroll-mt-16">
+              {/* Section 6: Thống kê Địa phương (Bảng tra cứu chi tiết) */}
+              <div id="stats-table" className="px-4 lg:px-6 scroll-mt-16">
                 <ScoreStatsTable data={yearsData} />
               </div>
 
-              {/* Section 7: Custom Self-Comparison Tool */}
+              {/* Section 7: Công cụ So sánh Tùy chọn 📊 */}
               <div id="self-comparison" className="px-4 lg:px-6 scroll-mt-16">
                 <ComparisonTool provinceData={provinceData} />
               </div>

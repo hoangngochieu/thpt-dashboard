@@ -202,9 +202,8 @@ export default function StoryPage() {
                   <button
                     key={yr}
                     onClick={() => setStoryYear(yr)}
-                    className={`px-2 py-1 rounded-sm font-medium transition-all ${
-                      storyYear === yr ? "bg-background text-foreground shadow-xs" : "text-muted-foreground hover:text-foreground"
-                    }`}
+                    className={`px-2 py-1 rounded-sm font-medium transition-all ${storyYear === yr ? "bg-background text-foreground shadow-xs" : "text-muted-foreground hover:text-foreground"
+                      }`}
                   >
                     {yr}
                   </button>
@@ -250,8 +249,8 @@ export default function StoryPage() {
       <AppSidebar variant="inset" />
       <SidebarInset>
         {/* Scroll Progress Bar */}
-        <div 
-          className="fixed top-0 left-0 right-0 h-1 bg-primary/20 z-50 transition-all duration-100" 
+        <div
+          className="fixed top-0 left-0 right-0 h-1 bg-primary/20 z-50 transition-all duration-100"
           style={{ width: `${scrollProgress}%` }}
         >
           <div className="h-full w-full bg-linear-to-r from-blue-600 via-indigo-500 to-purple-600 shadow-[0_0_10px_rgba(99,102,241,0.5)]"></div>
@@ -260,31 +259,24 @@ export default function StoryPage() {
         <header className="flex h-(--header-height) shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-(--header-height) sticky top-0 bg-background/85 backdrop-blur-md z-40">
           <div className="flex w-full items-center justify-between px-4 lg:px-6">
             <div className="flex items-center gap-2">
-              <Link href="/dashboard">
-                <Button variant="ghost" size="icon" className="size-8 cursor-pointer">
-                  <ArrowLeftIcon className="size-4" />
-                  <span className="sr-only">Back</span>
-                </Button>
-              </Link>
-              <div className="h-4 w-px bg-border mx-1"></div>
               <h1 className="text-sm font-semibold flex items-center gap-1.5">
                 <BookOpenIcon className="size-4 text-indigo-500" />
                 <span>Câu chuyện Dữ liệu (Scrollytelling)</span>
               </h1>
             </div>
-            
+
             <Link href="/dashboard">
-              <Button size="sm" variant="outline" className="text-xs gap-1.5 cursor-pointer">
+              {/* <Button size="sm" variant="outline" className="text-xs gap-1.5 cursor-pointer">
                 <ArrowLeftIcon className="size-3.5" />
                 <span>Quay lại Dashboard</span>
-              </Button>
+              </Button> */}
             </Link>
           </div>
         </header>
 
         <div className="flex-1 bg-slate-50/30 dark:bg-zinc-950/20">
           <div className="mx-auto max-w-7xl px-4 py-8 md:py-12 lg:px-8">
-            
+
             {/* Header intro */}
             <div className="mb-12 text-center max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-1.5 rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-semibold text-indigo-600 dark:text-indigo-400 mb-4">
@@ -302,8 +294,8 @@ export default function StoryPage() {
             {/* Side-by-side Scrolling List */}
             <div className="space-y-16 lg:space-y-24">
               {storySections.map((section, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="grid grid-cols-1 gap-8 lg:grid-cols-12 items-start pt-8 border-t border-border/40 first:border-0 first:pt-0"
                 >
                   {/* Left Column: Narrative Card */}

@@ -3,7 +3,6 @@
 import * as React from "react"
 
 import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
 import {
   Sidebar,
@@ -21,90 +20,80 @@ import {
   PieChartIcon,
   TableIcon,
   MapPinIcon,
-  Settings2Icon,
-  CircleHelpIcon,
   GraduationCapIcon,
   BookOpenIcon,
   SlidersIcon,
+  LineChartIcon,
 } from "lucide-react"
 
 const data = {
   user: {
-    name: "Hoàng Ngọc Hiếu",
-    email: "hieu@student.edu.vn",
+    name: "Hoàng Ngọc Hiệu",
+    email: "hoangngochieutin92018@gmail.com",
     avatar: "",
   },
   navMain: [
     {
-      title: "Tổng quan",
+      title: "Tổng quan Kỳ thi",
       url: "#overview",
       icon: (
         <LayoutDashboardIcon />
       ),
     },
     {
-      title: "Kể chuyện Dữ liệu 📖",
+      title: "Hành trình Dữ liệu 📖",
       url: "/dashboard/story",
       icon: (
         <BookOpenIcon />
       ),
     },
     {
-      title: "Điểm TB theo môn",
-      url: "#average",
+      title: "Điểm số theo Môn học",
+      url: "#average-scores",
       icon: (
         <BarChart3Icon />
       ),
     },
     {
-      title: "Phổ điểm",
-      url: "#distribution",
+      title: "Phổ điểm & Phân hóa",
+      url: "#score-distribution",
       icon: (
         <TrendingUpIcon />
       ),
     },
     {
-      title: "So sánh năm",
-      url: "#comparison",
+      title: "Cơ cấu & Tổ hợp thi",
+      url: "#participation-stats",
       icon: (
         <PieChartIcon />
       ),
     },
     {
-      title: "Bản đồ tỉnh/thành",
-      url: "#map",
+      title: "Biến động & Xu hướng",
+      url: "#year-trends",
+      icon: (
+        <LineChartIcon />
+      ),
+    },
+    {
+      title: "Phân bố Địa lý",
+      url: "#geographic-map",
       icon: (
         <MapPinIcon />
       ),
     },
     {
-      title: "Bảng thống kê",
-      url: "#stats",
+      title: "Thống kê Địa phương",
+      url: "#stats-table",
       icon: (
         <TableIcon />
       ),
     },
     {
-      title: "So sánh Tự chọn 📊",
+      title: "Công cụ So sánh 📊",
       url: "#self-comparison",
       icon: (
         <SlidersIcon />
-      ),
-    },
-  ],
-  navSecondary: [
-    {
-      title: "Cài đặt",
-      url: "#",
-      icon: (
-        <Settings2Icon />
-      ),
-    },
-    {
-      title: "Trợ giúp",
-      url: "#",
-      icon: (
-        <CircleHelpIcon />
       ),
     },
   ],
@@ -128,7 +117,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>
         <NavUser user={data.user} />
@@ -136,3 +124,4 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     </Sidebar>
   )
 }
+
