@@ -9,6 +9,7 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
 import { CirclePlusIcon, MailIcon } from "lucide-react"
+import { useRouter, usePathname } from "next/navigation"
 
 export function NavMain({
   items,
@@ -19,13 +20,22 @@ export function NavMain({
     icon?: React.ReactNode
   }[]
 }) {
+  const pathname = usePathname()
+  const router = useRouter()
+
   const handleClick = (url: string) => {
     if (url.startsWith("#")) {
-      const id = url.slice(1)
-      const el = document.getElementById(id)
-      if (el) {
-        el.scrollIntoView({ behavior: "smooth", block: "start" })
+      if (pathname !== "/dashboard" && pathname !== "/") {
+        router.push("/dashboard" + url)
+      } else {
+        const id = url.slice(1)
+        const el = document.getElementById(id)
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "start" })
+        }
       }
+    } else {
+      router.push(url)
     }
   }
 

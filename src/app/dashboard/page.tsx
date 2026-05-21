@@ -9,6 +9,7 @@ import { SubjectTrendChart } from "@/components/subject-trend-chart"
 import { ParticipationChart } from "@/components/participation-chart"
 import { ScoreStatsTable } from "@/components/score-stats-table"
 import { VietnamMapChart } from "@/components/vietnam-map-chart"
+import { ComparisonTool } from "@/components/comparison-tool"
 import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -80,6 +81,11 @@ export default function Page() {
               {/* Section 6: Stats Table */}
               <div id="stats" className="px-4 lg:px-6 scroll-mt-16">
                 <ScoreStatsTable data={yearsData} />
+              </div>
+
+              {/* Section 7: Custom Self-Comparison Tool */}
+              <div id="self-comparison" className="px-4 lg:px-6 scroll-mt-16">
+                <ComparisonTool provinceData={provinceData} />
               </div>
             </div>
           </div>

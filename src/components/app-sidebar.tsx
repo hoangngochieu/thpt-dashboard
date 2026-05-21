@@ -24,6 +24,8 @@ import {
   Settings2Icon,
   CircleHelpIcon,
   GraduationCapIcon,
+  BookOpenIcon,
+  SlidersIcon,
 } from "lucide-react"
 
 const data = {
@@ -38,6 +40,13 @@ const data = {
       url: "#overview",
       icon: (
         <LayoutDashboardIcon />
+      ),
+    },
+    {
+      title: "Kể chuyện Dữ liệu 📖",
+      url: "/dashboard/story",
+      icon: (
+        <BookOpenIcon />
       ),
     },
     {
@@ -73,6 +82,13 @@ const data = {
       url: "#stats",
       icon: (
         <TableIcon />
+      ),
+    },
+    {
+      title: "So sánh Tự chọn 📊",
+      url: "#self-comparison",
+      icon: (
+        <SlidersIcon />
       ),
     },
   ],
