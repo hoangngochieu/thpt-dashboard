@@ -37,10 +37,6 @@ const subjectMap: Record<string, string> = {
   lich_su: "Lịch Sử",
   dia_li: "Địa Lí",
   gdcd: "GDCD",
-  gdktpl: "GD KT&PL",
-  tin_hoc: "Tin Học",
-  cong_nghe_cn: "CN Công Nghiệp",
-  cong_nghe_nn: "CN Nông Nghiệp",
 }
 
 interface YearData {

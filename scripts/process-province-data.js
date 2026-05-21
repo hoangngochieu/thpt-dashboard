@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
-const XLSX = require('xlsx');
 
 // ─── FILE PATHS ──────────────────────────────────────────────
 const CSV_2023 = path.join(__dirname, '../../diem_thi_thpt_2023.csv');
 const CSV_2024 = path.join(__dirname, '../../diem_thi_thpt_2024.csv');
-const XLSX_2025 = path.join(__dirname, '../../20250715-ketquathi-ct2018a.xlsx');
+const CSV_2025 = path.join(__dirname, '../../diem_thi_thpt_2025.csv');
 const OUT_FILE = path.join(__dirname, '../src/app/dashboard/province-data.json');
 
 // ─── SBD Province Code → Province Name mapping ──────────────
@@ -217,16 +216,7 @@ const csvSubjects = [
   'hoa_hoc', 'sinh_hoc', 'lich_su', 'dia_li', 'gdcd'
 ];
 
-const xlsx2025Map = {
-  'Toán': 'toan',
-  'Văn': 'ngu_van',
-  'Ngoại ngữ': 'ngoai_ngu',
-  'Lí': 'vat_li',
-  'Hóa': 'hoa_hoc',
-  'Sinh': 'sinh_hoc',
-  'Sử': 'lich_su',
-  'Địa': 'dia_li',
-};
+
 
 // ─── Province Stats Aggregator ──────────────────────────────
 function createProvinceAggregator() {
@@ -302,56 +292,7 @@ function processCSVByProvince(filePath, subjects) {
   });
 }
 
-// ─── XLSX Province Processor ────────────────────────────────
-function processXLSXByProvince(filePath) {
-  console.log('  Đang đọc file XLSX...');
-  const wb = XLSX.readFile(filePath);
-  const ws = wb.Sheets['Sheet2'];
-  if (!ws) return {};
 
-  const rows = XLSX.utils.sheet_to_json(ws, { header: 1 });
-  const headers = rows[0];
-  const xlsxSubjects = Object.values(xlsx2025Map);
-  const agg = createProvinceAggregator();
-
-  const colMap = {};
-  headers.forEach((h, i) => { if (xlsx2025Map[h]) colMap[xlsx2025Map[h]] = i; });
-  const sbdIdx = headers.indexOf('SOBAODANH');
-
-  for (let r = 1; r < rows.length; r++) {
-    const row = rows[r];
-    if (!row || row.length === 0) continue;
-
-    const sbd = String(row[sbdIdx] || '');
-    const code = sbd.substring(0, 2);
-    const province = provinceCodeMap[code];
-
-    if (province) {
-      if (!agg[province]) {
-        agg[province] = { count: 0, sumScores: {}, participants: {} };
-        xlsxSubjects.forEach(s => { agg[province].sumScores[s] = 0; agg[province].participants[s] = 0; });
-      }
-      agg[province].count++;
-      xlsxSubjects.forEach(sub => {
-        if (colMap[sub] !== undefined) {
-          const val = row[colMap[sub]];
-          if (val !== undefined && val !== null && val !== '') {
-            const score = parseFloat(val);
-            if (!isNaN(score)) {
-              agg[province].participants[sub]++;
-              agg[province].sumScores[sub] += score;
-            }
-          }
-        }
-      });
-    }
-
-    if (r % 50000 === 0) console.log(`  ... đã xử lý ${r.toLocaleString()} dòng`);
-  }
-
-  console.log(`  Hoàn tất: ${(rows.length - 1).toLocaleString()} dòng`);
-  return finalizeProvinceData(agg, xlsxSubjects);
-}
 
 // ─── MAIN ───────────────────────────────────────────────────
 async function main() {
@@ -365,8 +306,8 @@ async function main() {
   console.log('\n📄 [2/3] CSV 2024...');
   const prov2024 = await processCSVByProvince(CSV_2024, csvSubjects);
 
-  console.log('\n📊 [3/3] XLSX 2025...');
-  const prov2025 = processXLSXByProvince(XLSX_2025);
+  console.log('\n📄 [3/3] CSV 2025...');
+  const prov2025 = await processCSVByProvince(CSV_2025, csvSubjects);
 
   const output = {
     provinces: {

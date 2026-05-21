@@ -1,12 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
-const XLSX = require('xlsx');
 
 // ─── FILE PATHS ──────────────────────────────────────────────
 const CSV_2023 = path.join(__dirname, '../../diem_thi_thpt_2023.csv');
 const CSV_2024 = path.join(__dirname, '../../diem_thi_thpt_2024.csv');
-const XLSX_2025 = path.join(__dirname, '../../20250715-ketquathi-ct2018a.xlsx');
+const CSV_2025 = path.join(__dirname, '../../diem_thi_thpt_2025.csv');
 const OUT_FILE = path.join(__dirname, '../src/app/dashboard/data.json');
 
 // ─── SUBJECT DEFINITIONS ────────────────────────────────────
@@ -14,29 +13,6 @@ const OUT_FILE = path.join(__dirname, '../src/app/dashboard/data.json');
 const csvSubjects = [
   'toan', 'ngu_van', 'ngoai_ngu', 'vat_li',
   'hoa_hoc', 'sinh_hoc', 'lich_su', 'dia_li', 'gdcd'
-];
-
-// Column mapping for 2025 XLSX (Vietnamese headers → normalized keys)
-const xlsx2025Map = {
-  'Toán': 'toan',
-  'Văn': 'ngu_van',
-  'Ngoại ngữ': 'ngoai_ngu',
-  'Lí': 'vat_li',
-  'Hóa': 'hoa_hoc',
-  'Sinh': 'sinh_hoc',
-  'Sử': 'lich_su',
-  'Địa': 'dia_li',
-  'Giáo dục kinh tế và pháp luật': 'gdktpl',
-  'Tin học': 'tin_hoc',
-  'Công nghệ công nghiệp': 'cong_nghe_cn',
-  'Công nghệ nông nghiệp': 'cong_nghe_nn',
-};
-
-// All possible subjects across all years
-const allSubjects = [
-  'toan', 'ngu_van', 'ngoai_ngu', 'vat_li',
-  'hoa_hoc', 'sinh_hoc', 'lich_su', 'dia_li',
-  'gdcd', 'gdktpl', 'tin_hoc', 'cong_nghe_cn', 'cong_nghe_nn'
 ];
 
 // Subject labels (Vietnamese)
@@ -50,10 +26,6 @@ const subjectLabels = {
   lich_su: 'Lịch Sử',
   dia_li: 'Địa Lí',
   gdcd: 'GDCD',
-  gdktpl: 'GD KT&PL',
-  tin_hoc: 'Tin Học',
-  cong_nghe_cn: 'CN Công Nghiệp',
-  cong_nghe_nn: 'CN Nông Nghiệp',
 };
 
 // ─── STATS INITIALIZER ──────────────────────────────────────
@@ -185,49 +157,7 @@ function processCSV(filePath, subjects) {
   });
 }
 
-// ─── XLSX PROCESSOR ──────────────────────────────────────────
-function processXLSX(filePath) {
-  console.log('  Đang đọc file XLSX (có thể mất vài giây)...');
-  const wb = XLSX.readFile(filePath);
-  const ws = wb.Sheets['Sheet2'];
-  if (!ws) {
-    console.error('  Không tìm thấy Sheet2!');
-    return createYearStats(Object.values(xlsx2025Map));
-  }
 
-  const rows = XLSX.utils.sheet_to_json(ws, { header: 1 });
-  const headers = rows[0];
-  const xlsxSubjects = Object.values(xlsx2025Map);
-  const stats = createYearStats(xlsxSubjects);
-
-  // Build column index map
-  const colMap = {};
-  headers.forEach((h, i) => {
-    if (xlsx2025Map[h]) {
-      colMap[xlsx2025Map[h]] = i;
-    }
-  });
-
-  for (let r = 1; r < rows.length; r++) {
-    const row = rows[r];
-    if (!row || row.length === 0) continue;
-    stats.totalStudents++;
-
-    xlsxSubjects.forEach(sub => {
-      if (colMap[sub] !== undefined) {
-        processScore(stats, sub, row[colMap[sub]]);
-      }
-    });
-
-    if (r % 50000 === 0) {
-      console.log(`  ... đã xử lý ${r.toLocaleString()} dòng`);
-    }
-  }
-
-  console.log(`  Hoàn tất: ${(rows.length - 1).toLocaleString()} dòng`);
-  finalizeStats(stats);
-  return stats;
-}
 
 // ─── MAIN ────────────────────────────────────────────────────
 async function main() {
@@ -243,9 +173,9 @@ async function main() {
   console.log('\n📄 [2/3] Đang xử lý CSV 2024...');
   const data2024 = await processCSV(CSV_2024, csvSubjects);
 
-  // Process 2025
-  console.log('\n📊 [3/3] Đang xử lý XLSX 2025...');
-  const data2025 = processXLSX(XLSX_2025);
+  // Process 2025 (now also CSV with same structure as 2023/2024)
+  console.log('\n📄 [3/3] Đang xử lý CSV 2025...');
+  const data2025 = await processCSV(CSV_2025, csvSubjects);
 
   // Build combined output
   const output = {
@@ -258,10 +188,7 @@ async function main() {
     metadata: {
       processedAt: new Date().toISOString(),
       csvSubjects,
-      xlsxSubjects2025: Object.values(xlsx2025Map),
-      commonSubjects: csvSubjects.filter(s =>
-        Object.values(xlsx2025Map).includes(s)
-      ),
+      commonSubjects: csvSubjects,
     }
   };
 
