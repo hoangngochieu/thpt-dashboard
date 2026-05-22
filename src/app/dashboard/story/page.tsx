@@ -58,7 +58,7 @@ export default function StoryPage() {
             <li><strong className="text-foreground">Năm 2025:</strong> Cột mốc đặc biệt khi kỳ thi THPT lần đầu tiên áp dụng chương trình Giáo dục Phổ thông mới (GDPT 2018), thay đổi hoàn toàn cấu trúc môn thi và cách thức ra đề định hướng đánh giá năng lực.</li>
           </ul>
           <div className="mt-4 p-3.5 rounded-lg bg-indigo-500/10 border border-indigo-500/20 text-indigo-700 dark:text-indigo-300 text-xs">
-            <span className="font-semibold block mb-0.5">💡 Điểm đáng chú ý:</span>
+            <span className="font-semibold block mb-0.5"> Điểm đáng chú ý:</span>
             Sự gia tăng liên tục số lượng thí sinh tạo áp lực lớn lên công tác tuyển sinh Đại học, đòi hỏi sự phân hóa rõ nét hơn từ đề thi.
           </div>
         </div>
@@ -78,10 +78,7 @@ export default function StoryPage() {
             <li><strong className="text-foreground">Các thành phố lớn:</strong> Hà Nội và TP.HCM có số lượng thí sinh đông nhất nước nhưng điểm trung bình ở mức khá (xấp xỉ 6.5 - 6.8), do sự chênh lệch lớn giữa các trường nội thành và ngoại thành.</li>
             <li><strong className="text-foreground">Vùng cao & Biên giới:</strong> Các tỉnh miền núi phía Bắc (Hà Giang, Cao Bằng) và Tây Nguyên tiếp tục nằm ở nhóm cuối bảng, phản ánh khoảng cách lớn về hạ tầng giáo dục và đội ngũ giáo viên.</li>
           </ul>
-          <div className="mt-4 p-3.5 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-700 dark:text-rose-300 text-xs">
-            <span className="font-semibold block mb-0.5">🗺️ Insight Địa lý:</span>
-            Nam Định liên tục giữ vị trí quán quân về điểm trung bình thi tốt nghiệp THPT cả nước trong nhiều năm, khẳng định truyền thống hiếu học lâu đời và sự đồng đều trong phong trào học tập.
-          </div>
+
         </div>
       )
     },
@@ -116,7 +113,7 @@ export default function StoryPage() {
             Phổ điểm (sự phân bố số lượng thí sinh theo các mức điểm từ 0 đến 10) thể hiện bản chất phân hóa tuyển sinh của đề thi tốt nghiệp qua từng năm:
           </p>
           <ul className="list-disc pl-5 space-y-1">
-            <li><strong className="text-foreground">Phổ điểm Toán:</strong> Có dạng hình chuông chuẩn đẹp, đỉnh phổ điểm nằm ở mức 6.4 - 7.2 điểm. Số lượng điểm 9-10 biến động vừa phải giữa các năm.</li>
+            <li><strong className="text-foreground">Phổ điểm Toán:</strong> Có dạng hình chuông chuẩn đẹp, đỉnh phổ điểm nằm ở mức 6.4 - 7.2 điểm. Số lượng điểm 9-10 biến động vừa phải giữa các năm. Nhưng năm 2025 do c</li>
             <li><strong className="text-foreground">Phổ điểm Tiếng Anh:</strong> Thể hiện phân phối bimodal (hai đỉnh) độc đáo qua các năm. Một đỉnh ở mức điểm thấp (3-4 điểm) đại diện cho học sinh ở các khu vực nông thôn/miền núi, và một đỉnh ở mức điểm khá (7-8 điểm) đại diện cho học sinh ở đô thị có điều kiện học ngoại ngữ tốt.</li>
           </ul>
           <div className="mt-4 p-3.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs">

@@ -88,6 +88,28 @@ function getColorByRank(rank: number, total: number): string {
   return `rgb(${r},${g},${b})`
 }
 
+const normalizeName = (name: string): string => {
+  if (!name) return ""
+  return name.normalize("NFC")
+}
+
+// For 2025, GeoJSON uses "Huế" but the database uses "ThừaThiênHuế"
+const mapGeoToDataName = (name: string, year: string): string => {
+  const normName = normalizeName(name)
+  if (year === "2025" && normName === "Huế") {
+    return "ThừaThiênHuế"
+  }
+  return normName
+}
+
+const mapDataToGeoName = (name: string, year: string): string => {
+  const normName = normalizeName(name)
+  if (year === "2025" && normName === "ThừaThiênHuế") {
+    return "Huế"
+  }
+  return normName
+}
+
 export function VietnamMapChart({
   provinceData,
 }: {
@@ -116,22 +138,32 @@ export function VietnamMapChart({
 
   // Get score for a province
   const getScore = useCallback((provinceName: string): number => {
-    const data = yearData[provinceName]
+    const dataKey = mapGeoToDataName(provinceName, selectedYear)
+    const data = yearData[dataKey]
     if (!data) return 0
     if (selectedSubject === "overall") return data.overallAverage
     return data.averageScores[selectedSubject] || 0
-  }, [yearData, selectedSubject])
+  }, [yearData, selectedSubject, selectedYear])
 
   // Build a sorted ranking of provinces (ascending by score) for quantile coloring
   const sortedProvinces = useMemo(() => {
-    return Object.entries(yearData)
-      .map(([name, data]) => ({
-        name,
-        score: selectedSubject === "overall" ? data.overallAverage : (data.averageScores[selectedSubject] || 0),
-      }))
+    let list = Object.entries(yearData)
+      .map(([name, data]) => {
+        const geoName = mapDataToGeoName(name, selectedYear)
+        return {
+          name: geoName,
+          score: selectedSubject === "overall" ? data.overallAverage : (data.averageScores[selectedSubject] || 0),
+        }
+      })
       .filter(p => p.score > 0)
-      .sort((a, b) => a.score - b.score) // ascending: 0 = lowest
-  }, [yearData, selectedSubject])
+
+    if (geoData && geoData.features && geoData.features.length > 0) {
+      const geoNames = new Set(geoData.features.map(f => normalizeName(f.properties.name)))
+      list = list.filter(p => geoNames.has(normalizeName(p.name)))
+    }
+
+    return list.sort((a, b) => a.score - b.score) // ascending: 0 = lowest
+  }, [yearData, selectedSubject, geoData, selectedYear])
 
   // Create a rank lookup: province name → rank index
   const rankMap = useMemo(() => {
@@ -179,7 +211,8 @@ export function VietnamMapChart({
   }
 
   // Get hovered province data
-  const hoveredData = hoveredProvince ? yearData[hoveredProvince] : null
+  const hoveredDataKey = hoveredProvince ? mapGeoToDataName(hoveredProvince, selectedYear) : null
+  const hoveredData = hoveredDataKey ? yearData[hoveredDataKey] : null
   const hoveredScore = hoveredProvince ? getScore(hoveredProvince) : 0
   const hoveredRank = hoveredProvince && rankMap[hoveredProvince] !== undefined
     ? totalRanked - rankMap[hoveredProvince]
@@ -187,14 +220,18 @@ export function VietnamMapChart({
 
   // Ranking table (sorted by score descending)
   const rankedProvinces = useMemo(() =>
-    [...sortedProvinces].reverse().map((p, i) => ({
-      ...p,
-      displayName: yearData[p.name]?.displayName || p.name,
-      region: yearData[p.name]?.region || '',
-      students: yearData[p.name]?.totalStudents || 0,
-      rank: i,
-    }))
-  , [sortedProvinces, yearData])
+    [...sortedProvinces].reverse().map((p, i) => {
+      const dataKey = mapGeoToDataName(p.name, selectedYear)
+      const data = yearData[dataKey]
+      return {
+        ...p,
+        displayName: data?.displayName || p.name,
+        region: data?.region || '',
+        students: data?.totalStudents || 0,
+        rank: i,
+      }
+    })
+  , [sortedProvinces, yearData, selectedYear])
 
   // Available subjects for selected year
   const availableSubjects = new Set<string>()
@@ -253,7 +290,7 @@ export function VietnamMapChart({
               style={{ maxHeight: "600px" }}
             >
               {geoData?.features.map((feature, i) => {
-                const provinceName = feature.properties.name
+                const provinceName = normalizeName(feature.properties.name)
                 const rank = rankMap[provinceName]
                 const hasData = rank !== undefined
                 const fill = hasData
@@ -267,9 +304,12 @@ export function VietnamMapChart({
                     key={i}
                     d={d}
                     fill={fill}
-                    stroke={isHovered ? "#1e293b" : "#ffffff"}
+                    stroke={isHovered ? "#000000" : "#ffffff"}
                     strokeWidth={isHovered ? 2 : 0.5}
-                    opacity={isHovered ? 1 : 0.9}
+                    opacity={hoveredProvince ? (isHovered ? 1 : 0.45) : 0.95}
+                    style={{
+                      filter: isHovered ? "brightness(1.2) drop-shadow(0px 0px 3px rgba(0,0,0,0.3))" : "none"
+                    }}
                     className="transition-all duration-150 cursor-pointer"
                     onMouseMove={(e) => handleMouseMove(e, provinceName)}
                     onMouseLeave={handleMouseLeave}
@@ -348,7 +388,18 @@ export function VietnamMapChart({
                       className={`border-b border-border/50 hover:bg-muted/50 transition-colors cursor-pointer ${
                         hoveredProvince === p.name ? 'bg-muted' : ''
                       }`}
-                      onMouseEnter={() => setHoveredProvince(p.name)}
+                      onMouseEnter={() => {
+                        setHoveredProvince(p.name)
+                        if (geoData) {
+                          const feature = geoData.features.find(f => normalizeName(f.properties.name) === normalizeName(p.name))
+                          if (feature) {
+                            const centroid = pathGenerator.centroid(feature as any)
+                            if (centroid && !isNaN(centroid[0]) && !isNaN(centroid[1])) {
+                              setTooltipPos({ x: centroid[0], y: centroid[1] })
+                            }
+                          }
+                        }
+                      }}
                       onMouseLeave={() => setHoveredProvince(null)}
                     >
                       <td className="py-1.5 px-1 tabular-nums text-muted-foreground">{i + 1}</td>
